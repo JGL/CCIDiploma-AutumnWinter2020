@@ -38,7 +38,8 @@ Please read [UAL's guidance for students on how they will be assessed](https://w
    - Enquiry is about active learning and reflection. It’s how you explore, research and learn about your subject. Enquiry is central to all creative learning at UAL.
 2. Knowledge
    - Knowledge is about gathering information and enhancing understanding. It’s how you inform your work, explore diverse cultures and connections and appreciate what you do in a wider context.
-3. Process - Process is about your journey of learning. It’s how you take risks and experiment. And how you keep the creative momentum going — developing ideas from start to finish. Assessment Criteria - Communication
+3. Process
+   - Process is about your journey of learning. It’s how you take risks and experiment. And how you keep the creative momentum going — developing ideas from start to finish.
 4. Communication
    - Communication is about telling the story of your learning and making. It’s how you share your learning with an audience, presenting and explaining your work to different people.
 5. Realisation
