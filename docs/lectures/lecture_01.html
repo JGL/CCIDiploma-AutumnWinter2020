@@ -7,19 +7,75 @@
   <title>Big</title>
   <link href="big.css" rel="stylesheet" type="text/css" />
   <script src="big.js"></script>
+  <link href="themes/white.css" rel="stylesheet" type="text/css" />
+  <script>
+    BIG_ASPECT_RATIO = 1.6;
+  </script>
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/default.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+  <script src="big.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad();
+  </script>
+  <style>
+    .hljs {
+      overflow-x: initial;
+    }
+  </style>
+
   <!-- Favicon links below -->
   <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
   <link rel="manifest" href="../site.webmanifest">
   <!-- favicons generated at https://favicon.io/favicon-generator/ -->
+
 </head>
 
-<body class="light">
+<body>
   <div>
-    Hello! Welcome to the Diploma in Creative Computing!
-    <notes>Speakers notes go here.</notes>
+    Hi!
+  </div>
+  <div>
+    Welcome! I'm Joel Gethin Lewis.
+  </div>
+  <div>
+    <ul>
+      <li>Aspect ratios</li>
+      <li>Layouts</li>
+    </ul>
+  </div>
+  <div class=layout style="grid-template-columns: 1fr;grid-template-rows:75% 25%;">
+    <img src="https://cdn.glitch.com/21fc53a2-3696-4bfc-bad6-f673079bce6a%2Fairplane.gif?1557695161362" />
+
+    <div>A longer description!</div>
+  </div>
+  <div class=layout style="grid-template-columns: 1fr;grid-template-rows:25% 75%;">
+    <div>A longer description!</div> <img src="https://cdn.glitch.com/21fc53a2-3696-4bfc-bad6-f673079bce6a%2Fairplane.gif?1557695161362" />
+
+  </div>
+  <div class=layout style="grid-template-columns: 50% 50%;">
+    <img src="https://cdn.glitch.com/21fc53a2-3696-4bfc-bad6-f673079bce6a%2Fairplane.gif?1557695161362" />
+    <div>A longer description!</div>
+  </div>
+  <div>
+    <pre><code class="javascript">Date.now() + 100</code></pre>
+  </div>
+  <div>
+    <video src='https://d1adp7gr8mqax6.cloudfront.net/tutorial-2/1.mp4' controls />
+  </div>
+  <div class=layout style="grid-template-columns: 25% 75%;grid-template-rows:repeat(3, 30%);">
+    <img src="https://cdn.glitch.com/21fc53a2-3696-4bfc-bad6-f673079bce6a%2Fairplane.gif?1557695161362" />
+    <div>Yes</div>
+    <img src="https://cdn.glitch.com/21fc53a2-3696-4bfc-bad6-f673079bce6a%2Fairplane.gif?1557695161362" />
+    <div>No</div>
+    <img src="https://cdn.glitch.com/21fc53a2-3696-4bfc-bad6-f673079bce6a%2Fairplane.gif?1557695161362" />
+    <div>Just right, a lot of text goes here. Lots of text. So much. What happens when it overflows?</div>
+  </div>
+  <div style="background-image: url(https://cdn.glitch.com/21fc53a2-3696-4bfc-bad6-f673079bce6a%2Fairplane.gif?1557695161362)">
+    <div>I have a background image, on a slide. So it is in the aspect ratio.</div>
+  </div>
+  <div data-body-style="background-image:url(https://cdn.glitch.com/21fc53a2-3696-4bfc-bad6-f673079bce6a%2Fairplane.gif?1557695161362)">
+    <div>So do I, on the body, so it is not.</div>
   </div>
 </body>
-
-</html>
