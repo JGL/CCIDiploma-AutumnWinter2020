@@ -1,0 +1,43 @@
+/* fullscreen fun via https://dev.to/lennythedev/css-gotcha-how-to-fill-page-with-a-div-270j*/
+
+/* include border and padding in element width and height */
+* {
+    box-sizing: border-box;
+}
+
+/* override browser default */
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* use viewport-relative units to cover page fully */
+body {
+    height: 100vh;
+    width: 100vw;
+    background: white;
+    background-color: white;
+    color: black;
+    text-rendering: optimizeLegibility;
+    -webkit-font-kerning: normal;
+    font-kerning: normal;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 21px;
+    /* medium.com size! */
+    font-style: normal;
+    font-family: -apple-system,
+        BlinkMacSystemFont,
+        Segoe UI,
+        Helvetica,
+        Arial,
+        sans-serif,
+        Apple Color Emoji,
+        Segoe UI Emoji;
+    /* via https://css-tricks.com/three-css-alternatives-to-javascript-navigation/ */
+}
