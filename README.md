@@ -1,11 +1,9 @@
-# Diploma in Creative Computing at the Creative Coding Institute, Camberwell, University of the Arts, London
-
-Lecture slides, wiki and code examples from Unit 1 of the Creative Coding Institute's 2020 to 2021 Diploma in Creative Computing.
+# Lecture slides, wiki and code from Unit 1 of the [Creative Computing Institute](https://www.arts.ac.uk/creative-computing-institute)'s 2020/2021 [Diploma in Creative Computing](https://www.arts.ac.uk/subjects/creative-computing/undergraduate/ual-creative-computing-institute-diploma).
 
 ## Information
 
 - Lecturer: [Joel Gethin Lewis](https://joelgethinlewis.com/)
-- Location: [Creative Computing Institute](https://www.arts.ac.uk/creative-computing-institute), Camberwell, 5th Floor Block B
+- Location: [Creative Computing Institute](https://www.arts.ac.uk/creative-computing-institute), Camberwell, 5th Floor Block B and online!
 - Weekly times: Every Monday 14:00-17:00 London time
 - [All term dates](https://www.arts.ac.uk/students/term-dates)
 - [Office Hours](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki/Office-Hours)
@@ -72,6 +70,8 @@ I'll be teaching with a [Flipped Classroom](https://en.wikipedia.org/wiki/Flippe
 - 1400-1500: **Explore/engage** - discuss the previous week's lecture, meditate, reflect, explain.
 - 1500-1600: **Experiment/play** - work a [programming challenge](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki/Experiment-Play-Projects) based on the previous week's lecture and our discussion in the previous hour
 - 1600-1700: **Watch/listen** - absorb a pre-recorded lecture from me, in preparation for next weeks session.
+
+**You are expected to undertake independent study of about 25 hours per week.**
 
 ## Block/Term Structure
 
