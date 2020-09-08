@@ -16,8 +16,7 @@ Lecture slides, wiki and code examples from Unit 1 of the Creative Coding Instit
 
 ## Code of Conduct / Community Statement is cloned from p5.js
 
-You can find the UAL Disciplinary Code For Students here: 
-[Disciplinary Code For Students](https://www.arts.ac.uk/study-at-ual/academic-regulations/student-regulations/disciplinary-code-for-students)
+You can find the UAL Disciplinary Code For Students here: [Disciplinary Code For Students](https://www.arts.ac.uk/study-at-ual/academic-regulations/student-regulations/disciplinary-code-for-students)
 
 You can find our code of conduct here: [code_of_conduct.md](CODE_OF_CONDUCT.md).
 
@@ -32,6 +31,18 @@ Golan Levin also offers a useful thought from his children's school:
 > - K – is it Kind?
 
 ## Learning Outcomes and platforms for doing so
+
+Please read [UAL's guidance for students on how they will be assessed](https://www.arts.ac.uk/study-at-ual/academic-regulations/course-regulations/assessment). [TLDR](https://www.urbandictionary.com/define.php?term=TLDR), you will be assessed on the following 5 assessment criteria (quoting from [UAL's page](https://www.arts.ac.uk/study-at-ual/academic-regulations/course-regulations/assessment)):
+
+1. Enquiry
+   - Enquiry is about active learning and reflection. It’s how you explore, research and learn about your subject. Enquiry is central to all creative learning at UAL.
+2. Knowledge
+   - Knowledge is about gathering information and enhancing understanding. It’s how you inform your work, explore diverse cultures and connections and appreciate what you do in a wider context.
+3. Process - Process is about your journey of learning. It’s how you take risks and experiment. And how you keep the creative momentum going — developing ideas from start to finish. Assessment Criteria - Communication
+4. Communication
+   - Communication is about telling the story of your learning and making. It’s how you share your learning with an audience, presenting and explaining your work to different people.
+5. Realisation
+   - Realisation is about the work you create and how this reveals what you’ve learned. It’s taking a look back and evaluating the work you’ve produced.
 
 At the end of this block (midway through the 2021 Spring term) you should have the following outcomes, with subheadings for methods and platforms we will use to do so. To be clear, I want you to obtain knowledge and then use that to make projects. My aim is to have every student graduate with new creative computing core knowledge and a portfolio of projects that relate that new creative computing knowledge to their chosen BA subject elsewhere at University of the Arts London (UAL).
 
@@ -57,7 +68,7 @@ At the end of this block (midway through the 2021 Spring term) you should have t
 
 I'll be teaching with a [Flipped Classroom](https://en.wikipedia.org/wiki/Flipped_classroom) style. Simply put, I want to spend as much time working through problems and discussing together, rather than you listening to me lecture. Each Monday afternoon will be structured in the following way:
 
-- 1400-1500: **Explore/engage** - discuss the previous week's lecture,  meditate, reflect, explain.
+- 1400-1500: **Explore/engage** - discuss the previous week's lecture, meditate, reflect, explain.
 - 1500-1600: **Experiment/play** - work a [programming challenge](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki/Experiment-Play-Projects) based on the previous week's lecture and our discussion in the previous hour
 - 1600-1700: **Watch/listen** - absorb a pre-recorded lecture from me, in preparation for next weeks session.
 
@@ -78,6 +89,7 @@ The Diploma in Creative Computing is split into two blocks of teaching. **Block 
 - Unit 6: Creative Practice: Computational Environments - taught by TBC.
 
 ## Assessment
+
 At the end of Block 1 (halfway through the Spring Term) and at the end of Block 2 (at the end of the Summer Term), you will be assessed individually. The two units I teach (Unit 1 and Unit 4) are assessed in the same way:
 
 Both units will be assessed in the same two ways - via multiple choice test and practical exam. Each part is worth 50% of the unit mark. In the multiple choice test you will be presented with a 20 questions relating explicitly to course content. You must choose between up to 4 potentially correct answers per question. You will be given 1 hour to complete the 20 multiple choice questions. In the Practical Exam you will be individually asked to write a basic program to demonstrate the application of creative coding to a set problem. You will be given 2 hours to complete the Practical Exam.
@@ -167,4 +179,3 @@ Following the <a href="https://twitter.com/helenbevan/status/1175650749797167104
 - 1600-1700: **Watch/listen 11** - absorb a pre-recorded lecture from me, in preparation for next weeks session.
 
 Further sessions are TBC, depending on multiple choice test and practical exam timings, and other unit's assessment timings.
-
