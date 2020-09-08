@@ -98,6 +98,8 @@ Remember that small, short, technical exercises can be the root of much bigger i
 
 Following the <a href="https://twitter.com/helenbevan/status/1175650749797167104?s=11">latest research</a>, I've decided to shift us from pairs to threes. After all, <a href="https://www.youtube.com/watch?v=np0YIaHv6LQ">three is a magic number</a>.
 
+## Block 1, Unit 1 schedule:
+
 ## Week 1 - Monday 19th October 2020 (week 43 of 53) - Introduction
 
 - 1400-1500: **Introduction session!** - get to know each other
