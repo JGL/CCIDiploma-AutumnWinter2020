@@ -67,9 +67,9 @@ At the end of this block (midway through the 2021 Spring term) you should have t
 
 I'll be teaching with a [Flipped Classroom](https://en.wikipedia.org/wiki/Flipped_classroom) style. Simply put, I want to spend as much time working through problems and discussing together, rather than you listening to me lecture. Each Monday afternoon will be structured in the following way:
 
-- 1400-1500: **Explore/engage** - discuss the previous week's lecture, meditate, reflect, explain.
-- 1500-1600: **Experiment/play** - work a [programming challenge](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki/Experiment-Play-Projects) based on the previous week's lecture and our discussion in the previous hour
-- 1600-1700: **Watch/listen** - absorb a pre-recorded lecture from me, in preparation for next weeks session.
+- Hour 1: **Explore/engage** - discuss the previous week's lecture, meditate, reflect, explain.
+- Hour 2: **Experiment/play** - work a [programming challenge](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki/Experiment-Play-Projects) based on the previous week's lecture and our discussion in the previous hour
+- Hour 3: **Watch/listen** - absorb a pre-recorded lecture from me, in preparation for next weeks session.
 
 **You are expected to undertake independent study of about 25 hours per week.**
 
