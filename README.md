@@ -95,6 +95,8 @@ At the end of Block 1 (halfway through the Spring Term) and at the end of Block 
 
 Both units will be assessed in the same two ways - via multiple choice test and practical exam. Each part is worth 50% of the unit mark. In the multiple choice test you will be presented with a 20 questions relating explicitly to course content. You must choose between up to 4 potentially correct answers per question. You will be given 1 hour to complete the 20 multiple choice questions. In the Practical Exam you will be individually asked to write a basic program to demonstrate the application of creative coding to a set problem. You will be given 2 hours to complete the Practical Exam.
 
+You can find [last year's Unit 1 Multiple Choice test here](https://jgl.github.io/CCIDiploma-AutumnWinter2020/pdf/2020_01_20_Unit1MultipleChoiceTest.pdf) and [last year's Unit 1 Practical exam here](https://jgl.github.io/CCIDiploma-AutumnWinter2020/pdf/2020_01_27_Unit1PracticalExam.pdf). You can find [last year's Unit 4 Multiple Choice test here](https://jgl.github.io/CCIDiploma-AutumnWinter2020/pdf/2020_06_01_Unit4MultipleChoiceTest.pdf).
+
 Units 2 and 5 are assessed via an essay.
 
 Units 3 and 6 are assessed via the submission of a 5 minute video and accompanying PDF document.
