@@ -1,24 +1,34 @@
-# Lecture slides, wiki and code from Unit 1 of the [Creative Computing Institute](https://www.arts.ac.uk/creative-computing-institute)'s 2020/2021 [Diploma in Creative Computing](https://www.arts.ac.uk/subjects/creative-computing/undergraduate/ual-creative-computing-institute-diploma).
+# Lecture slides, wiki and code for Unit 1 of the [Creative Computing Institute](https://www.arts.ac.uk/creative-computing-institute)'s 2020/2021 [Diploma in Creative Computing](https://www.arts.ac.uk/subjects/creative-computing/undergraduate/ual-creative-computing-institute-diploma).
 
 ## Information
 
-- Lecturer: [Joel Gethin Lewis](https://joelgethinlewis.com/)
-- Location: [Creative Computing Institute](https://www.arts.ac.uk/creative-computing-institute), Camberwell, 5th Floor Block B and online!
-- Weekly times: Every Monday 14:00-17:00 London time
 - [All term dates](https://www.arts.ac.uk/students/term-dates)
-- [Office Hours](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki/Office-Hours)
+- Lecturer: [Joel Gethin Lewis](https://joelgethinlewis.com/)
+- Location: [Creative Computing Institute](https://www.arts.ac.uk/creative-computing-institute), Camberwell, London and online!
+- Weekly teaching times:
+  - Week 1 of the 3 week rotation:
+    - In person session 1: Monday 1000-1300
+    - In person session 2: Monday 1400-1700
+    - In person session 3: Tuesday 1000-1300 (taught by [Alice Stewart](https://alicestew.art/))
+  - Weeks 2 and 3 of the 3 week rotation:
+    - Remote sessions: Monday 1400-1700
+- _**You are expected to undertake independent study of about 25 hours per week.**_
+- Weekly tutorial times are below. These tutorials are for you to discuss anything you'd like - from the how the course is going, to your own practice, to work placements or anything else. My aim is to have at least two tutorials with every student on the diploma every term.
+  - Remote session 1: 1000-1300
+  - Remote session 2: 1400-1700
+  - Please see the [Unit Wiki Tutorial Schedule](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki/Tutorial-Schedule) for details of when your tutorial will be.
+- If your next tutorial is too far away, or you have a more urgent question, please see the [Unit Wiki Office Hours](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki/Office-Hours) for details of my office hours, when you can book yourself in for a chat about anything you'd like. My office hours are every Friday from 0900-1100.
 - Contact me via the [UAL Creative Computing Institute Slack](https://ual-cci.slack.com)
 - [Lecture Slides](https://jgl.github.io/CCIDiploma-AutumnWinter2020/)
-- [Wiki for all non-lecture notes, reading lists and other resources](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki)
-- You are expected to undertake independent study of about 25 hours per week
+- Please see the [Unit 1 Wiki for all non-lecture notes, reading lists and other resources](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki)
 
-## Code of Conduct / Community Statement is cloned from p5.js
+## Code of Conduct
 
 You can find the UAL Disciplinary Code For Students here: [Disciplinary Code For Students](https://www.arts.ac.uk/study-at-ual/academic-regulations/student-regulations/disciplinary-code-for-students)
 
-You can find our code of conduct here: [code_of_conduct.md](CODE_OF_CONDUCT.md).
+You can find our code of conduct here: [code_of_conduct.md](CODE_OF_CONDUCT.md), it was cloned from p5.j code of conduct.
 
-Golan Levin also offers a useful thought from his children's school:
+[Golan Levin](https://www.flong.com/) also offers a useful thought from his children's school:
 
 > When communicating, ask yourself:
 >
@@ -30,33 +40,33 @@ Golan Levin also offers a useful thought from his children's school:
 
 ## Block/Term Structure
 
-The Diploma in Creative Computing is split into two blocks of teaching. **Block 1** takes up the entire Autumn term and half of the Spring term. **Block 2** follows on, taking the second half of Spring term and the entire Summer term.
+The [Diploma in Creative Computing](https://www.arts.ac.uk/subjects/creative-computing/undergraduate/ual-creative-computing-institute-diploma) is split into two blocks of teaching. **Block 1** takes up the entire Autumn term and half of the Spring term. **Block 2** follows on, taking the second half of Spring term and the entire Summer term.
 
 **Block 1** consists of three units:
 
-- Unit 1: Creative Coding and Creative Computing Frameworks - taught by me.
+- Unit 1: Creative Coding and Creative Computing Frameworks - taught by me and [Alice Stewart](https://alicestew.art/).
 - Unit 2: Introducing Computational Futures and Artificial Intelligence - taught by [Alex Fefegha](https://designcode.art/) and [Dr. Rebecca Fiebrink](https://www.arts.ac.uk/creative-computing-institute/people/rebecca-fiebrink).
 - Unit 3: Creative Practice: Visual Coding and Physical Computing - taught by [Indira Knight](https://www.linkedin.com/in/indira-k-bb857515b/) and [Alice Stewart](https://alicestew.art/).
 
 **Block 2** consists of three units:
 
-- Unit 4: Coding for Collaborative App Development - taught by me.
+- Unit 4: Coding for Collaborative App Development - taught by me and [Alice Stewart](https://alicestew.art/).
 - Unit 5: Working and the Digital Creative Industries - taught by [Alex Fefegha](https://designcode.art/).
 - Unit 6: Creative Practice: Computational Environments - taught by [Indira Knight](https://www.linkedin.com/in/indira-k-bb857515b/) and [Alice Stewart](https://alicestew.art/).
 
 ## Learning Outcomes and platforms for doing so
 
-Please read [UAL's guidance for students on how they will be assessed](https://www.arts.ac.uk/study-at-ual/academic-regulations/course-regulations/assessment). [TLDR](https://www.urbandictionary.com/define.php?term=TLDR), you will be assessed on the following 5 assessment criteria (quoting from [UAL's page](https://www.arts.ac.uk/study-at-ual/academic-regulations/course-regulations/assessment)):
+Please read [UAL's guidance for students on how they will be assessed](https://www.arts.ac.uk/study-at-ual/academic-regulations/course-regulations/assessment). [TLDR](https://www.urbandictionary.com/define.php?term=TLDR): you will be assessed on the following 5 assessment criteria (quoting from [UAL's page](https://www.arts.ac.uk/study-at-ual/academic-regulations/course-regulations/assessment)):
 
-1. Enquiry
+1. **Enquiry**
    - Enquiry is about active learning and reflection. It’s how you explore, research and learn about your subject. Enquiry is central to all creative learning at UAL.
-2. Knowledge
+2. **Knowledge**
    - Knowledge is about gathering information and enhancing understanding. It’s how you inform your work, explore diverse cultures and connections and appreciate what you do in a wider context.
-3. Process
+3. **Process**
    - Process is about your journey of learning. It’s how you take risks and experiment. And how you keep the creative momentum going — developing ideas from start to finish.
-4. Communication
+4. **Communication**
    - Communication is about telling the story of your learning and making. It’s how you share your learning with an audience, presenting and explaining your work to different people.
-5. Realisation
+5. **Realisation**
    - Realisation is about the work you create and how this reveals what you’ve learned. It’s taking a look back and evaluating the work you’ve produced.
 
 At the end of this block (midway through the 2021 Spring term) you should have the following outcomes, with subheadings for methods and platforms we will use to do so. To be clear, I want you to obtain knowledge and then use that to make projects. My aim is to have every student graduate with new creative computing core knowledge and a portfolio of projects that relate that new creative computing knowledge to their chosen BA subject elsewhere at University of the Arts London (UAL).
@@ -87,7 +97,7 @@ I'll be teaching with a [Flipped Classroom](https://en.wikipedia.org/wiki/Flippe
 - Hour 2: **Experiment/play** - work a [programming challenge](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki/Experiment-Play-Projects) based on the previous week's lecture and our discussion in the previous hour
 - Hour 3: **Watch/listen** - absorb a pre-recorded lecture from me, in preparation for next weeks session.
 
-**You are expected to undertake independent study of about 25 hours per week over the three units that you will be taught every block.**
+_**You are expected to undertake independent study of 25 hours per week over the three units that you will be taught every block.**_
 
 ## Assessment
 
@@ -117,8 +127,9 @@ Following the <a href="https://twitter.com/helenbevan/status/1175650749797167104
 
 ## Week 1 - Monday 19th October 2020 (week 43 of 53) - In person learning 1 - Introduction
 
-- 1000-1300 - Session 1 for half the year
-- 1400-1700 - Session 2 for the other half of the year
+- 1000-1300 - Session 1 for a third of the year, taught by me
+- 1400-1700 - Session 2 for another third of the year, taught by me
+- 1000-1300 (the day after, Tuesday) - Session 3 for the final third of the year, taught by [Alice Stewart](https://alicestew.art/)
 
 - Hour 1: **Introduction lecture** - watch my introduction lecture on Javascript and p5.js.
 - Hour 2: **Introduction workshop** - get to know the course structure, sign up for arts.ac.uk GitHub, get your Wu-Tang name, edit the [course wiki people page](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki/People) together, get to know each other.
@@ -138,8 +149,9 @@ Following the <a href="https://twitter.com/helenbevan/status/1175650749797167104
 
 ## Week 4 - Monday 9th November 2020 (week 46 of 53) - In person learning 2 - Deciding
 
-- 1000-1300 - Session 1 for half the year
-- 1400-1700 - Session 2 for the other half of the year
+- 1000-1300 - Session 1 for a third of the year, taught by me
+- 1400-1700 - Session 2 for another third of the year, taught by me
+- 1000-1300 (the day after, Tuesday) - Session 3 for the final third of the year, taught by [Alice Stewart](https://alicestew.art/)
 
 - Hour 1: **Explore/engage 3** - discuss the previous week's lecture, meditate, reflect, explain.
 - Hour 2: **Experiment/play 3** - work on [programming challenges](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki/Experiment-Play-Projects) based on the previous week's lecture and our discussion in the previous hour - Code as Creative Medium - Conditional Testing exercises
@@ -159,8 +171,9 @@ Following the <a href="https://twitter.com/helenbevan/status/1175650749797167104
 
 ## Week 7 - Monday 30th November 2020 (week 49 of 53) - In person learning 3 - Timing
 
-- 1000-1300 - Session 1 for half the year
-- 1400-1700 - Session 2 for the other half of the year
+- 1000-1300 - Session 1 for a third of the year, taught by me
+- 1400-1700 - Session 2 for another third of the year, taught by me
+- 1000-1300 (the day after, Tuesday) - Session 3 for the final third of the year, taught by [Alice Stewart](https://alicestew.art/)
 
 - Hour 1: **Explore/engage 6** - discuss the previous week's lecture, meditate, reflect, explain.
 - Hour 2: **Experiment/play 6** - work on [programming challenges](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki/Experiment-Play-Projects) based on the previous week's lecture and our discussion in the previous hour - Code as Creative Medium - Time exercises
@@ -180,8 +193,9 @@ Following the <a href="https://twitter.com/helenbevan/status/1175650749797167104
 
 ## Week 10 - Monday 11th January 2021 (week 2 of 52) - In person learning 4 - mock exams
 
-- 1000-1300 - Session 1 for half the year
-- 1400-1700 - Session 2 for the other half of the year
+- 1000-1300 - Session 1 for a third of the year, taught by me
+- 1400-1700 - Session 2 for another third of the year, taught by me
+- 1000-1300 (the day after, Tuesday) - Session 3 for the final third of the year, taught by [Alice Stewart](https://alicestew.art/)
 
 - Hour 1: **Explore/engage 9** - discuss the previous week's lecture, meditate, reflect, explain.
 - Hour 2: **Experiment/play 9** - mock programming challenge and mock multiple choice exam
@@ -201,8 +215,9 @@ Following the <a href="https://twitter.com/helenbevan/status/1175650749797167104
 
 ## Week 13 - Monday 1st February 2021 (week 5 of 52) - In person learning 5 - where next?
 
-- 1000-1300 - Session 1 for half the year
-- 1400-1700 - Session 2 for the other half of the year
+- 1000-1300 - Session 1 for a third of the year, taught by me
+- 1400-1700 - Session 2 for another third of the year, taught by me
+- 1000-1300 (the day after, Tuesday) - Session 3 for the final third of the year, taught by [Alice Stewart](https://alicestew.art/)
 
 - Hour 1: **Explore/engage 12** - discuss the previous week's lecture, meditate, reflect, explain.
 - Hour 2: **Experiment/play 12** - work on [programming challenges](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki/Experiment-Play-Projects) based on the previous week's lecture and our discussion in the previous hour
