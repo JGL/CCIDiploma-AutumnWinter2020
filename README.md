@@ -24,9 +24,9 @@
 
 ## Code of Conduct
 
-You can find the UAL Disciplinary Code For Students here: [Disciplinary Code For Students](https://www.arts.ac.uk/study-at-ual/academic-regulations/student-regulations/disciplinary-code-for-students)
+You can find the UAL Disciplinary Code For Students here: [Disciplinary Code For Students](https://www.arts.ac.uk/study-at-ual/academic-regulations/student-regulations/disciplinary-code-for-students).
 
-You can find our code of conduct here: [code_of_conduct.md](CODE_OF_CONDUCT.md), it was cloned from p5.j code of conduct.
+You can find our code of conduct here: [code_of_conduct.md](CODE_OF_CONDUCT.md), it was cloned from [https://github.com/processing/p5.js/blob/main/CODE_OF_CONDUCT.md](the p5.js code of conduct).
 
 [Golan Levin](https://www.flong.com/) also offers a useful thought from his children's school:
 
