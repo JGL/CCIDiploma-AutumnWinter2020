@@ -11,13 +11,13 @@
     - In person session 2: Monday 1400-1700
     - In person session 3: Tuesday 1000-1300 (taught by [Alice Stewart](https://alicestew.art/))
   - Weeks 2 and 3 of the 3 week rotation:
-    - Remote sessions: Monday 1400-1700
+    - Remote sessions: Monday 1000-1300
 - _**You are expected to undertake independent study of about 25 hours per week.**_
 - Weekly tutorial times are below. These tutorials are for you to discuss anything you'd like - from the how the course is going, to your own practice, to work placements or anything else. My aim is to have at least two tutorials with every student on the diploma every term.
   - Remote session 1: 1000-1300
   - Remote session 2: 1400-1700
-  - Please see the [Unit Wiki Tutorial Schedule](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki/Tutorial-Schedule) for details of when your tutorial will be.
-- If your next tutorial is too far away, or you have a more urgent question, please see the [Unit Wiki Office Hours](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki/Office-Hours) for details of my office hours, when you can book yourself in for a chat about anything you'd like. My office hours are every Friday from 0900-1100.
+  - Please see the [Unit 1 Wiki Tutorial Schedule](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki/Tutorial-Schedule) for details of when your tutorial will be.
+- If your next tutorial is too far away, or you have a more urgent question, please see the [Unit 1 Wiki Office Hours](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki/Office-Hours) for details of my office hours, when you can book yourself in for a chat about anything you'd like. My office hours are every Friday from 0900-1100.
 - Contact me via the [UAL Creative Computing Institute Slack](https://ual-cci.slack.com)
 - [Lecture Slides](https://jgl.github.io/CCIDiploma-AutumnWinter2020/)
 - Please see the [Unit 1 Wiki for all non-lecture notes, reading lists and other resources](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki)
