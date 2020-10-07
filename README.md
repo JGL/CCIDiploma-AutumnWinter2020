@@ -19,7 +19,7 @@
   - Remote session 2: Tuesdays 1400-1700
   - Please see the [Unit 1 Wiki Tutorial Schedule](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki/Tutorial-Schedule) for details of when **your next** tutorial will be.
 - If **your next** tutorial is too far away, or you have a more urgent question, please message me on the [UAL Creative Computing Institute Slack](https://ual-cci.slack.com) first, then see the [Unit 1 Wiki Office Hours](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki/Office-Hours) for details of my office hours, where you can book yourself in for a chat about anything you'd like. My office hours are every Friday from 0900-1100.
-- [Course Moodle]() - see the course moodle for links to pre-recorded lectures as well as Blackboard links to our remote teaching sessions.
+- [Unit 1 Moodle](https://moodle.arts.ac.uk/course/view.php?id=48806) - see the Unit 1 Moodle for links to pre-recorded lectures as well as Blackboard links to our remote teaching sessions.
 - [Lecture Slides](https://jgl.github.io/CCIDiploma-AutumnWinter2020/)
 - Please see the [Unit 1 Wiki for all non-lecture notes, reading lists and other resources](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki)
 
@@ -142,6 +142,8 @@ Following the <a href="https://twitter.com/helenbevan/status/1175650749797167104
   - Who is your favourte artist at the moment?
   - What is your favourite thing to do at the moment?
   - What is your Instagram? I'm [@jgl](https://www.instagram.com/jgl/) - I follow back!
+  - Why I'm giving you a rubber duck as a present right now!
+  - Why I want you to work in threes
 - Hour 3: **Watch/listen 1** - use the course Moodle to absorb a pre-recorded [lecture from me on Counting and Remembering](https://jgl.github.io/CCIDiploma-AutumnWinter2020/lectures/lecture_01.html), in preparation for next weeks session.
 
 ## Week 2 - Monday 26th October 2020 (week 44 of 53) - Remote learning - Counting and Remembering
