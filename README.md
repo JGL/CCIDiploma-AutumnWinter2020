@@ -49,11 +49,15 @@ The [Diploma in Creative Computing](https://www.arts.ac.uk/subjects/creative-com
 - Unit 2: Introducing Computational Futures and Artificial Intelligence - taught by [Alex Fefegha](https://designcode.art/) and [Dr. Rebecca Fiebrink](https://www.arts.ac.uk/creative-computing-institute/people/rebecca-fiebrink).
 - [Unit 3: Creative Practice: Visual Coding and Physical Computing](https://github.com/developdata/CCIDiploma-Unit3) - taught by [Indira Knight](https://www.linkedin.com/in/indira-k-bb857515b/) and [Alice Stewart](https://alicestew.art/).
 
+In addition Vali Lalioti will be supporting the online Diploma cohort for all units.
+
 **Block 2** consists of three units:
 
 - Unit 4: Coding for Collaborative App Development - taught by me and [Alice Stewart](https://alicestew.art/).
 - Unit 5: Working and the Digital Creative Industries - taught by [Alex Fefegha](https://designcode.art/).
 - Unit 6: Creative Practice: Computational Environments - taught by [Indira Knight](https://www.linkedin.com/in/indira-k-bb857515b/) and [Alice Stewart](https://alicestew.art/).
+
+In addition Vali Lalioti will be supporting the online Diploma cohort for all units.
 
 ## Learning Outcomes and platforms for doing so
 
@@ -133,7 +137,7 @@ Following the <a href="https://twitter.com/helenbevan/status/1175650749797167104
 - 1000-1300 (the day after, Tuesday) - Session 3 for the final third of the year, taught by [Alice Stewart](https://alicestew.art/)
 
 - Hour 1: **Introduction lecture** - use the course Moodle to watch my pre-recorded [introduction lecture on the course, creative coding, Javascript and specifically p5.js](https://jgl.github.io/CCIDiploma-AutumnWinter2020/lectures/lecture_00.html).
-- Hour 2: **Introduction workshop** - get to know the course structure (this page!), sign up for arts.ac.uk GitHub, get [your Wu-Tang name](https://www.mess.be/inickgenwuname.php), edit the [course wiki people page](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki/People) together, get to know each other, specifically:
+- Hour 2: **Introduction workshop** - get to know the course structure (this page!), [sign up for Github.com](https://github.com/join), [sign up for the p5.js editor](https://editor.p5js.org/signup), [sign up for the p5.js forum](https://discourse.processing.org/c/p5js/10), get [your Wu-Tang name](https://www.mess.be/inickgenwuname.php), edit the [course wiki people page](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki/People) together, get to know each other, specifically:
   - How you want people to address you?
   - How you are feeling today?
   - What course are you doing at UAL?
@@ -142,7 +146,7 @@ Following the <a href="https://twitter.com/helenbevan/status/1175650749797167104
   - Who is your favourte artist at the moment?
   - What is your favourite thing to do at the moment?
   - What is your Instagram? I'm [@jgl](https://www.instagram.com/jgl/) - I follow back!
-  - Why I'm giving you a rubber duck as a present right now!
+  - Why I gave you a rubber duck as a present!
   - Why I want you to work in threes
 - Hour 3: **Watch/listen 1** - use the course Moodle to absorb a pre-recorded [lecture from me on Counting and Remembering](https://jgl.github.io/CCIDiploma-AutumnWinter2020/lectures/lecture_01.html), in preparation for next weeks session.
 
