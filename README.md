@@ -20,7 +20,7 @@
   - Please see the [Unit 1 Wiki Tutorial Schedule](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki/Tutorial-Schedule) for details of when **your next** tutorial will be.
 - If **your next** tutorial is too far away, or you have a more urgent question, please message me on the [UAL Creative Computing Institute Slack](https://ual-cci.slack.com) first, then see the [Unit 1 Wiki Office Hours](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki/Office-Hours) for details of my office hours, where you can book yourself in for a chat about anything you'd like. My office hours are every Friday from 0900-1100.
 - [Unit 1 Moodle](https://moodle.arts.ac.uk/course/view.php?id=48806) - see the Unit 1 Moodle for links to pre-recorded lectures as well as Blackboard links to our remote teaching sessions.
-- [Lecture Slides](https://jgl.github.io/CCIDiploma-AutumnWinter2020/)
+- [Lecture and Workshop slides](https://jgl.github.io/CCIDiploma-AutumnWinter2020/)
 - Please see the [Unit 1 Wiki for all non-lecture notes, reading lists and other resources](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki)
 
 ## Code of Conduct
@@ -120,7 +120,7 @@ Units 3 and 6 are assessed via the submission of a 5 minute video and accompanyi
 
 In addition to the **formal assessment** at the end of **Blocks 1 and 2**, I will be setting weekly **Experiment/play** projects. We will discuss and work on the weekly projects in groups of three on Monday afternoons during the **Experiment/play** hour. The weekly **Experiment/play** projects won't be assessed, but will be in your interest to complete.
 
-The [**Experiment/play** projects](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki/Experiment-Play-Projects) will be based on exercises from the upcoming [Code as Creative Medium: An educator's handbook](https://mitpress.mit.edu/books/code-creative-medium) by [Golan Levin](http://flong.com/) and [Tega Brain](http://tegabrain.com/).
+The **Experiment/play** projects will be based on exercises from the upcoming [Code as Creative Medium: An educator's handbook](https://mitpress.mit.edu/books/code-creative-medium) by [Golan Levin](http://flong.com/) and [Tega Brain](http://tegabrain.com/).
 
 Remember that small, short, technical exercises can be the root of much bigger ideas and projects that could last a lifetime.
 
@@ -136,8 +136,8 @@ Following the <a href="https://twitter.com/helenbevan/status/1175650749797167104
 - 1400-1700 - Session 2 for another third of the year, taught by me
 - 1000-1300 (the day after, Tuesday) - Session 3 for the final third of the year, taught by [Alice Stewart](https://alicestew.art/)
 
-- Hour 1: **Introduction lecture** - use the course Moodle to watch my pre-recorded [introduction lecture on the course, creative coding, Javascript and specifically p5.js](https://jgl.github.io/CCIDiploma-AutumnWinter2020/lectures/lecture_00.html).
-- Hour 2: **Introduction workshop** - get to know the course structure (this page!), [sign up for Github.com](https://github.com/join), [sign up for the p5.js editor](https://editor.p5js.org/signup), [sign up for the p5.js forum](https://discourse.processing.org/c/p5js/10), get [your Wu-Tang name](https://www.mess.be/inickgenwuname.php), edit the [course wiki people page](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki/People) together, get to know each other, specifically:
+- Hour 1: [**Introduction lecture** - use the course Moodle to watch my pre-recorded introduction lecture on the course, creative coding, Javascript and specifically p5.js](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_00.html).
+- Hour 2: [**Introduction workshop**](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/workshop_00.html) - get to know the course structure (this page!), [sign up for Github.com](https://github.com/join), [sign up for the p5.js editor](https://editor.p5js.org/signup), [sign up for the p5.js forum](https://discourse.processing.org/c/p5js/10), get [your Wu-Tang name](https://www.mess.be/inickgenwuname.php), edit the [course wiki people page](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki/People) together, get to know each other, specifically:
   - How you want people to address you?
   - How you are feeling today?
   - What course are you doing at UAL?
@@ -148,19 +148,19 @@ Following the <a href="https://twitter.com/helenbevan/status/1175650749797167104
   - What is your Instagram? I'm [@jgl](https://www.instagram.com/jgl/) - I follow back!
   - Why I gave you a rubber duck as a present!
   - Why I want you to work in threes
-- Hour 3: **Watch/listen 1** - use the course Moodle to absorb a pre-recorded [lecture from me on Counting and Remembering](https://jgl.github.io/CCIDiploma-AutumnWinter2020/lectures/lecture_01.html), in preparation for next weeks session.
+- Hour 3: **Watch/listen 1** - use the course Moodle to absorb a pre-recorded [lecture from me on Counting and Remembering](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_01.html), in preparation for next weeks session.
 
 ## Week 2 - Monday 26th October 2020 (week 44 of 53) - Remote learning - Counting and Remembering
 
 - 1000-1100: **Explore/engage 1** - discuss the previous week's lecture, meditate, reflect, explain.
 - 1100-1200: **Experiment/play 1** - work on [programming challenges](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki/Experiment-Play-Projects) based on the previous week's lecture and our discussion in the previous hour - exploring p5.js website, forum, reference and examples.
-- 1200-1300: **Watch/listen 2** - use the course Moodle to absorb a pre-recorded [lecture from me on Drawing and Colouring](https://jgl.github.io/CCIDiploma-AutumnWinter2020/lectures/lecture_02.html), in preparation for next weeks session.
+- 1200-1300: **Watch/listen 2** - use the course Moodle to absorb a pre-recorded [lecture from me on Drawing and Colouring](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_02.html), in preparation for next weeks session.
 
 ## Week 3 - Monday 2nd November 2020 (week 45 of 53) - Remote learning - Drawing and Colouring
 
 - 1000-1100: **Explore/engage 2** - discuss the previous week's lecture, meditate, reflect, explain.
 - 1100-1200: **Experiment/play 2** - work on [programming challenges](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki/Experiment-Play-Projects) based on the previous week's lecture and our discussion in the previous hour - Code as Creative Medium - Color exercises and Graphic Elements exercises
-- 1200-1300: **Watch/listen 3** - use the course Moodle to absorb a pre-recorded [lecture from me on Deciding](https://jgl.github.io/CCIDiploma-AutumnWinter2020/lectures/lecture_03.html), in preparation for next weeks session.
+- 1200-1300: **Watch/listen 3** - use the course Moodle to absorb a pre-recorded [lecture from me on Deciding](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_03.html), in preparation for next weeks session.
 
 ## Week 4 - Monday 9th November 2020 (week 46 of 53) - In person learning 2 - Deciding
 
@@ -170,19 +170,19 @@ Following the <a href="https://twitter.com/helenbevan/status/1175650749797167104
 
 - Hour 1: **Explore/engage 3** - discuss the previous week's lecture, meditate, reflect, explain.
 - Hour 2: **Experiment/play 3** - work on [programming challenges](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki/Experiment-Play-Projects) based on the previous week's lecture and our discussion in the previous hour - Code as Creative Medium - Conditional Testing exercises
-- Hour 3: **Watch/listen 4** - use the course Moodle to absorb a pre-recorded [lecture from me on Repeating](https://jgl.github.io/CCIDiploma-AutumnWinter2020/lectures/lecture_04.html), in preparation for next weeks session.
+- Hour 3: **Watch/listen 4** - use the course Moodle to absorb a pre-recorded [lecture from me on Repeating](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_04.html), in preparation for next weeks session.
 
 ## Week 5 - Monday 16th November 2020 (week 47 of 52) - Remote learning - Repeating
 
 - 1000-1100: **Explore/engage 4** - discuss the previous week's lecture, meditate, reflect, explain.
 - 1100-1200: **Experiment/play 4** - work on [programming challenges](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki/Experiment-Play-Projects) based on the previous week's lecture and our discussion in the previous hour - Code as Creative Medium - Iteration Exercises
-- 1200-1300: **Watch/listen 5** - use the course Moodle to absorb a pre-recorded [lecture from me on Listing and Randomising](https://jgl.github.io/CCIDiploma-AutumnWinter2020/lectures/lecture_05.html), in preparation for next weeks session.
+- 1200-1300: **Watch/listen 5** - use the course Moodle to absorb a pre-recorded [lecture from me on Listing and Randomising](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_05.html), in preparation for next weeks session.
 
 ## Week 6 - Monday 23rd November 2020 (week 48 of 53) - Remote learning - Listing and Randomising
 
 - 1000-1100: **Explore/engage 5** - discuss the previous week's lecture, meditate, reflect, explain.
 - 1100-1200: **Experiment/play 5** - work on [programming challenges](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki/Experiment-Play-Projects) based on the previous week's lecture and our discussion in the previous hour - Code as Creative Medium - Arrays exercises and Unpredictability exercises
-- 1200-1300: **Watch/listen 6** - use the course Moodle to absorb a pre-recorded [lecture from me on Timing](https://jgl.github.io/CCIDiploma-AutumnWinter2020/lectures/lecture_06.html), in preparation for next weeks session.
+- 1200-1300: **Watch/listen 6** - use the course Moodle to absorb a pre-recorded [lecture from me on Timing](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_06.html), in preparation for next weeks session.
 
 ## Week 7 - Monday 30th November 2020 (week 49 of 53) - In person learning 3 - Timing
 
@@ -192,19 +192,19 @@ Following the <a href="https://twitter.com/helenbevan/status/1175650749797167104
 
 - Hour 1: **Explore/engage 6** - discuss the previous week's lecture, meditate, reflect, explain.
 - Hour 2: **Experiment/play 6** - work on [programming challenges](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki/Experiment-Play-Projects) based on the previous week's lecture and our discussion in the previous hour - Code as Creative Medium - Time exercises
-- Hour 3: **Watch/listen 7** - use the course Moodle to absorb a pre-recorded [lecture from me on Classing](https://jgl.github.io/CCIDiploma-AutumnWinter2020/lectures/lecture_07.html), in preparation for next weeks session.
+- Hour 3: **Watch/listen 7** - use the course Moodle to absorb a pre-recorded [lecture from me on Classing](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_07.html), in preparation for next weeks session.
 
 ## Week 8 - Monday 7th December 2020 (week 50 of 52) - Remote learning - Classing
 
 - 1000-1100: **Explore/engage 7** - discuss the previous week's lecture, meditate, reflect, explain.
 - 1100-1200: **Experiment/play 7** - work on [programming challenges](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki/Experiment-Play-Projects) based on the previous week's lecture and our discussion in the previous hour - Code as Creative Medium - Interactivity exercises
-- 1200-1300: **Watch/listen 8** - use the course Moodle to absorb a pre-recorded [lecture from me on Images and Simulating](https://jgl.github.io/CCIDiploma-AutumnWinter2020/lectures/lecture_08.html), in preparation for next weeks session.
+- 1200-1300: **Watch/listen 8** - use the course Moodle to absorb a pre-recorded [lecture from me on Images and Simulating](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_08.html), in preparation for next weeks session.
 
 ## Week 9 - Monday 14th December 2020 (week 51 of 53) - Remote learning - Images and Simulating
 
 - 1000-1100: **Explore/engage 8** - discuss the previous week's lecture, meditate, reflect, explain.
 - 1100-1200: **Experiment/play 8** - work on [programming challenges](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki/Experiment-Play-Projects) based on the previous week's lecture and our discussion in the previous hour - Code as Creative Medium - Images exercises and Simulation exercises
-- 1200-1300: **Watch/listen 9** - used the course Moodle to absorb a pre-recorded [lecture from me on Exams](https://jgl.github.io/CCIDiploma-AutumnWinter2020/lectures/lecture_09.html), in preparation for next weeks session.
+- 1200-1300: **Watch/listen 9** - used the course Moodle to absorb a pre-recorded [lecture from me on Exams](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_09.html), in preparation for next weeks session.
 
 ## Week 10 - Monday 11th January 2021 (week 2 of 52) - In person learning 4 - mock exams
 
@@ -214,19 +214,19 @@ Following the <a href="https://twitter.com/helenbevan/status/1175650749797167104
 
 - Hour 1: **Explore/engage 9** - discuss the previous week's lecture, meditate, reflect, explain.
 - Hour 2: **Experiment/play 9** - mock programming challenge and mock multiple choice exam issued.
-- Hour 3: **Watch/listen 10** - use the course Moodle to absorb a pre-recorded [lecture from me on openFrameworks and C++](https://jgl.github.io/CCIDiploma-AutumnWinter2020/lectures/lecture_10.html), in preparation for next weeks session.
+- Hour 3: **Watch/listen 10** - use the course Moodle to absorb a pre-recorded [lecture from me on openFrameworks and C++](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_10.html), in preparation for next weeks session.
 
 ## Week 11 - Monday 18th January 2021 (week 3 of 52) - Remote learning - introduction to openFrameworks and C++
 
 - 1000-1100: **Explore/engage 10** - discuss the previous week's lecture, meditate, reflect, explain.
 - 1100-1200: **Experiment/play 10** - work on [programming challenges](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki/Experiment-Play-Projects) based on the previous week's lecture and our discussion in the previous hour
-- 1200-1300: **Watch/listen 11** - use the course Moodle to absorb a pre-recorded [lecture from me on Computer Vision in openFrameworks](https://jgl.github.io/CCIDiploma-AutumnWinter2020/lectures/lecture_11.html), in preparation for next weeks session.
+- 1200-1300: **Watch/listen 11** - use the course Moodle to absorb a pre-recorded [lecture from me on Computer Vision in openFrameworks](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_11.html), in preparation for next weeks session.
 
 ## Week 12 - Monday 25th January 2021 (week 4 of 52) - Remote learning - introduction to Computer Vision in openFrameworks
 
 - 1000-1100: **Explore/engage 11** - discuss the previous week's lecture, meditate, reflect, explain.
 - 1100-1200: **Experiment/play 11** - work on [programming challenges](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki/Experiment-Play-Projects) based on the previous week's lecture and our discussion in the previous hour
-- 1200-1300: **Watch/listen 12** - use the course Moodle to absorb a pre-recorded [lecture from me on where next](https://jgl.github.io/CCIDiploma-AutumnWinter2020/lectures/lecture_12.html), in preparation for next weeks session.
+- 1200-1300: **Watch/listen 12** - use the course Moodle to absorb a pre-recorded [lecture from me on where next](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_12.html), in preparation for next weeks session.
 
 ## Week 13 - Monday 1st February 2021 (week 5 of 52) - In person learning 5 - where next?
 
@@ -236,6 +236,6 @@ Following the <a href="https://twitter.com/helenbevan/status/1175650749797167104
 
 - Hour 1: **Explore/engage 12** - discuss the previous week's lecture, meditate, reflect, explain.
 - Hour 2: **Experiment/play 12** - work on [programming challenges](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki/Experiment-Play-Projects) based on the previous week's lecture and our discussion in the previous hour
-- Hour 3: **Watch/listen 13** - use the course Moodle to absorb a pre-recorded [lecture from me on TBC](https://jgl.github.io/CCIDiploma-AutumnWinter2020/lectures/lecture_13.html).
+- Hour 3: **Watch/listen 13** - use the course Moodle to absorb a pre-recorded [lecture from me on TBC](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_13.html).
 
 Further sessions are TBC, depending on multiple choice test and practical exam timings, and other unit's assessment timings.
