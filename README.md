@@ -22,6 +22,7 @@
 - [Unit 1 Moodle](https://moodle.arts.ac.uk/course/view.php?id=48806) - see the Unit 1 Moodle for links to pre-recorded lectures as well as Blackboard links to our remote teaching sessions.
 - [Lecture and Workshop slides](https://jgl.github.io/CCIDiploma-AutumnWinter2020/)
 - Please see the [Unit 1 Wiki for all non-lecture notes, reading lists and other resources](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki)
+- This unit is dedicated to the memory of [JT](https://github.com/jtnimoy) [Nimoy](https://twitter.com/jtnimoy)
 
 ## Code of Conduct
 
@@ -49,7 +50,7 @@ The [Diploma in Creative Computing](https://www.arts.ac.uk/subjects/creative-com
 - Unit 2: Introducing Computational Futures and Artificial Intelligence - taught by [Alex Fefegha](https://designcode.art/) and [Dr. Rebecca Fiebrink](https://www.arts.ac.uk/creative-computing-institute/people/rebecca-fiebrink).
 - [Unit 3: Creative Practice: Visual Coding and Physical Computing](https://github.com/developdata/CCIDiploma-Unit3) - taught by [Indira Knight](https://www.linkedin.com/in/indira-k-bb857515b/) and [Alice Stewart](https://alicestew.art/).
 
-In addition Vali Lalioti will be supporting the online Diploma cohort for all units.
+In addition, [Vali Lalioti](https://www.theinnovationconsultancy.com/about/) will be supporting the online Diploma cohort for all units.
 
 **Block 2** consists of three units:
 
@@ -132,11 +133,11 @@ Following the <a href="https://twitter.com/helenbevan/status/1175650749797167104
 
 ## Week 1 - Monday 19th October 2020 (week 43 of 53) - In person learning 1 - Introduction
 
-- 1000-1300 - Session 1 for Group A and Group Online, taught by me
-- 1400-1700 - Session 2 for Group B, taught by me
-- 1000-1300 (the day after, Tuesday) - Session 3 for Group C, taught by [Alice Stewart](https://alicestew.art/)
+- 1000-1300 - Session 1 for Group A and Group Online, taught by me.
+- 1400-1700 - Session 2 for Group B, taught by me.
+- 1000-1300 (the day after, Tuesday) - Session 3 for Group C, taught by [Alice Stewart](https://alicestew.art/).
 
-- Hour 1: **Introduction lecture** - use the [Unit 1 Moodle](https://moodle.arts.ac.uk/course/view.php?id=48806) to watch my pre-recorded introduction lecture on the course, creative coding, Javascript and specifically p5.js.[Slides for reference](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_00.html).
+- Hour 1: **Introduction lecture** - use the [Unit 1 Moodle](https://moodle.arts.ac.uk/course/view.php?id=48806) to watch my pre-recorded introduction lecture on the course, creative coding, Javascript and specifically p5.js. [Slides for reference](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_00.html).
 - Hour 2: [**Introduction workshop**](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/workshop_00.html) - signing up for websites, introducing yourselves and having a discussion about the unit and course.
 - Hour 3: **Watch/listen 1** - use the [Unit 1 Moodle](https://moodle.arts.ac.uk/course/view.php?id=48806) to absorb a pre-recorded [lecture from me on Counting and Remembering], in preparation for next weeks session. [Slides for reference](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_01.html).
 
@@ -154,79 +155,79 @@ Following the <a href="https://twitter.com/helenbevan/status/1175650749797167104
 
 ## Week 4 - Monday 9th November 2020 (week 46 of 53) - In person learning 2 - Deciding
 
-- 1000-1300 - Session 1 for Group A and Group Online, taught by me
-- 1400-1700 - Session 2 for Group B, taught by me
-- 1000-1300 (the day after, Tuesday) - Session 3 for Group C, taught by [Alice Stewart](https://alicestew.art/)
+- 1000-1300 - Session 1 for Group A and Group Online, taught by me.
+- 1400-1700 - Session 2 for Group B, taught by me.
+- 1000-1300 (the day after, Tuesday) - Session 3 for Group C, taught by [Alice Stewart](https://alicestew.art/).
 
 - Hour 1: **Explore/engage 3** - discuss the previous week's lecture, meditate, reflect, explain.
 - Hour 2: **Experiment/play 3** - work on creative code exercises based on the previous week's lecture, our discussion in the previous hour and excerpts from the upcoming [Code as Creative Medium: An educator's handbook](https://mitpress.mit.edu/books/code-creative-medium) by [Golan Levin](http://flong.com/) and [Tega Brain](http://tegabrain.com/) - Conditional Testing exercises.
-- Hour 3: **Watch/listen 4** - use the [Unit 1 Moodle](https://moodle.arts.ac.uk/course/view.php?id=48806) to absorb a pre-recorded [lecture from me on Repeating](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_04.html), in preparation for next weeks session.
+- Hour 3: **Watch/listen 4** - use the [Unit 1 Moodle](https://moodle.arts.ac.uk/course/view.php?id=48806) to absorb a pre-recorded lecture from me on Repeating, in preparation for next weeks session. [Slides for reference](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_04.html).
 
 ## Week 5 - Monday 16th November 2020 (week 47 of 52) - Remote learning - Repeating
 
 - 1000-1100: **Explore/engage 4** - discuss the previous week's lecture, meditate, reflect, explain.
 - 1100-1200: **Experiment/play 4** - work on creative code exercises based on the previous week's lecture, our discussion in the previous hour and excerpts from the upcoming [Code as Creative Medium: An educator's handbook](https://mitpress.mit.edu/books/code-creative-medium) by [Golan Levin](http://flong.com/) and [Tega Brain](http://tegabrain.com/) - Iteration Exercises.
-- 1200-1300: **Watch/listen 5** - use the [Unit 1 Moodle](https://moodle.arts.ac.uk/course/view.php?id=48806) to absorb a pre-recorded [lecture from me on Listing and Randomising](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_05.html), in preparation for next weeks session.
+- 1200-1300: **Watch/listen 5** - use the [Unit 1 Moodle](https://moodle.arts.ac.uk/course/view.php?id=48806) to absorb a pre-recorded lecture from me on Listing and Randomising, in preparation for next weeks session. [Slides for reference](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_05.html).
 
 ## Week 6 - Monday 23rd November 2020 (week 48 of 53) - Remote learning - Listing and Randomising
 
 - 1000-1100: **Explore/engage 5** - discuss the previous week's lecture, meditate, reflect, explain.
 - 1100-1200: **Experiment/play 5** - work on creative code exercises based on the previous week's lecture, our discussion in the previous hour and excerpts from the upcoming [Code as Creative Medium: An educator's handbook](https://mitpress.mit.edu/books/code-creative-medium) by [Golan Levin](http://flong.com/) and [Tega Brain](http://tegabrain.com/) - Arrays exercises and Unpredictability exercises.
-- 1200-1300: **Watch/listen 6** - use the [Unit 1 Moodle](https://moodle.arts.ac.uk/course/view.php?id=48806) to absorb a pre-recorded [lecture from me on Timing](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_06.html), in preparation for next weeks session.
+- 1200-1300: **Watch/listen 6** - use the [Unit 1 Moodle](https://moodle.arts.ac.uk/course/view.php?id=48806) to absorb a pre-recorded lecture from me on Timing, in preparation for next weeks session. [Slides for reference](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_06.html).
 
 ## Week 7 - Monday 30th November 2020 (week 49 of 53) - In person learning 3 - Timing
 
-- 1000-1300 - Session 1 for Group A and Group Online, taught by me
-- 1400-1700 - Session 2 for Group B, taught by me
-- 1000-1300 (the day after, Tuesday) - Session 3 for Group C, taught by [Alice Stewart](https://alicestew.art/)
+- 1000-1300 - Session 1 for Group A and Group Online, taught by me.
+- 1400-1700 - Session 2 for Group B, taught by me.
+- 1000-1300 (the day after, Tuesday) - Session 3 for Group C, taught by [Alice Stewart](https://alicestew.art/).
 
 - Hour 1: **Explore/engage 6** - discuss the previous week's lecture, meditate, reflect, explain.
 - Hour 2: **Experiment/play 6** - work on creative code exercises based on the previous week's lecture, our discussion in the previous hour and excerpts from the upcoming [Code as Creative Medium: An educator's handbook](https://mitpress.mit.edu/books/code-creative-medium) by [Golan Levin](http://flong.com/) and [Tega Brain](http://tegabrain.com/) - Time and Interactivity exercises.
-- Hour 3: **Watch/listen 7** - use the [Unit 1 Moodle](https://moodle.arts.ac.uk/course/view.php?id=48806) to absorb a pre-recorded [lecture from me on Classing](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_07.html), in preparation for next weeks session.
+- Hour 3: **Watch/listen 7** - use the [Unit 1 Moodle](https://moodle.arts.ac.uk/course/view.php?id=48806) to absorb a pre-recorded lecture from me on Classing, in preparation for next weeks session. [Slides for reference](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_07.html).
 
 ## Week 8 - Monday 7th December 2020 (week 50 of 52) - Remote learning - Classing
 
 - 1000-1100: **Explore/engage 7** - discuss the previous week's lecture, meditate, reflect, explain.
 - 1100-1200: **Experiment/play 7** - work on creative code exercises based on the previous week's lecture, our discussion in the previous hour and excerpts from the upcoming [Code as Creative Medium: An educator's handbook](https://mitpress.mit.edu/books/code-creative-medium) by [Golan Levin](http://flong.com/) and [Tega Brain](http://tegabrain.com/) - Text and Language exercises.
-- 1200-1300: **Watch/listen 8** - use the [Unit 1 Moodle](https://moodle.arts.ac.uk/course/view.php?id=48806) to absorb a pre-recorded [lecture from me on Images and Simulating](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_08.html), in preparation for next weeks session.
+- 1200-1300: **Watch/listen 8** - use the [Unit 1 Moodle](https://moodle.arts.ac.uk/course/view.php?id=48806) to absorb a pre-recorded lecture from me on Images and Simulating, in preparation for next weeks session. [Slides for reference](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_08.html).
 
 ## Week 9 - Monday 14th December 2020 (week 51 of 53) - Remote learning - Images and Simulating
 
 - 1000-1100: **Explore/engage 8** - discuss the previous week's lecture, meditate, reflect, explain.
 - 1100-1200: **Experiment/play 8** - work on creative code exercises based on the previous week's lecture, our discussion in the previous hour and excerpts from the upcoming [Code as Creative Medium: An educator's handbook](https://mitpress.mit.edu/books/code-creative-medium) by [Golan Levin](http://flong.com/) and [Tega Brain](http://tegabrain.com/) - Images exercises and Simulation exercises.
-- 1200-1300: **Watch/listen 9** - used the course Moodle to absorb a pre-recorded [lecture from me on Exams](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_09.html), in preparation for next weeks session.
+- 1200-1300: **Watch/listen 9** - used the course Moodle to absorb a pre-recorded lecture from me on Exams, in preparation for next weeks session. [Slides for reference](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_09.html).
 
 ## Week 10 - Monday 11th January 2021 (week 2 of 52) - In person learning 4 - mock exams
 
-- 1000-1300 - Session 1 for Group A and Group Online, taught by me
-- 1400-1700 - Session 2 for Group B, taught by me
-- 1000-1300 (the day after, Tuesday) - Session 3 for Group C, taught by [Alice Stewart](https://alicestew.art/)
+- 1000-1300 - Session 1 for Group A and Group Online, taught by me.
+- 1400-1700 - Session 2 for Group B, taught by me.
+- 1000-1300 (the day after, Tuesday) - Session 3 for Group C, taught by [Alice Stewart](https://alicestew.art/).
 
 - Hour 1: **Explore/engage 9** - discuss the previous week's lecture, meditate, reflect, explain.
 - Hour 2: **Experiment/play 9** - mock programming challenge and mock multiple choice exam issued.
-- Hour 3: **Watch/listen 10** - use the [Unit 1 Moodle](https://moodle.arts.ac.uk/course/view.php?id=48806) to absorb a pre-recorded [lecture from me on openFrameworks and C++](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_10.html), in preparation for next weeks session.
+- Hour 3: **Watch/listen 10** - use the [Unit 1 Moodle](https://moodle.arts.ac.uk/course/view.php?id=48806) to absorb a pre-recorded lecture from me on openFrameworks and C++, in preparation for next weeks session. [Slides for reference](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_10.html).
 
 ## Week 11 - Monday 18th January 2021 (week 3 of 52) - Remote learning - introduction to openFrameworks and C++
 
 - 1000-1100: **Explore/engage 10** - discuss the previous week's lecture, meditate, reflect, explain.
-- 1100-1200: **Experiment/play 10** - work on creative code exercises based on the previous week's lecture and our discussion in the previous hour
-- 1200-1300: **Watch/listen 11** - use the [Unit 1 Moodle](https://moodle.arts.ac.uk/course/view.php?id=48806) to absorb a pre-recorded [lecture from me on Computer Vision in openFrameworks](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_11.html), in preparation for next weeks session.
+- 1100-1200: **Experiment/play 10** - work on creative code exercises based on the previous week's lecture and our discussion in the previous hour.
+- 1200-1300: **Watch/listen 11** - use the [Unit 1 Moodle](https://moodle.arts.ac.uk/course/view.php?id=48806) to absorb a pre-recorded lecture from me on Computer Vision in openFrameworks, in preparation for next weeks session. [Slides for reference](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_11.html).
 
 ## Week 12 - Monday 25th January 2021 (week 4 of 52) - Remote learning - introduction to Computer Vision in openFrameworks
 
 - 1000-1100: **Explore/engage 11** - discuss the previous week's lecture, meditate, reflect, explain.
-- 1100-1200: **Experiment/play 11** - work on creative code exercises based on the previous week's lecture and our discussion in the previous hour
-- 1200-1300: **Watch/listen 12** - use the [Unit 1 Moodle](https://moodle.arts.ac.uk/course/view.php?id=48806) to absorb a pre-recorded [lecture from me on where next](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_12.html), in preparation for next weeks session.
+- 1100-1200: **Experiment/play 11** - work on creative code exercises based on the previous week's lecture and our discussion in the previous hour.
+- 1200-1300: **Watch/listen 12** - use the [Unit 1 Moodle](https://moodle.arts.ac.uk/course/view.php?id=48806) to absorb a pre-recorded lecture from me on where next, in preparation for next weeks session. [Slides for reference](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_12.html).
 
 ## Week 13 - Monday 1st February 2021 (week 5 of 52) - In person learning 5 - where next?
 
-- 1000-1300 - Session 1 for Group A and Group Online, taught by me
-- 1400-1700 - Session 2 for Group B, taught by me
-- 1000-1300 (the day after, Tuesday) - Session 3 for Group C, taught by [Alice Stewart](https://alicestew.art/)
+- 1000-1300 - Session 1 for Group A and Group Online, taught by me.
+- 1400-1700 - Session 2 for Group B, taught by me.
+- 1000-1300 (the day after, Tuesday) - Session 3 for Group C, taught by [Alice Stewart](https://alicestew.art/).
 
 - Hour 1: **Explore/engage 12** - discuss the previous week's lecture, meditate, reflect, explain.
-- Hour 2: **Experiment/play 12** - work on creative code exercises based on the previous week's lecture and our discussion in the previous hour
-- Hour 3: **Watch/listen 13** - use the [Unit 1 Moodle](https://moodle.arts.ac.uk/course/view.php?id=48806) to absorb a pre-recorded [lecture from me on TBC](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_13.html).
+- Hour 2: **Experiment/play 12** - work on creative code exercises based on the previous week's lecture and our discussion in the previous hour.
+- Hour 3: **Watch/listen 13** - use the [Unit 1 Moodle](https://moodle.arts.ac.uk/course/view.php?id=48806) to absorb a pre-recorded lecture from me on TBC. [Slides for reference](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_13.html).
 
 Further sessions are TBC, depending on multiple choice test and practical exam timings, and other unit's assessment timings.
 
