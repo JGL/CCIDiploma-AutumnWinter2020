@@ -9,13 +9,13 @@
 html,
 body {
     margin: 0;
-    padding: 0;
+    padding: 0.42rem;
 }
 
 /* use viewport-relative units to cover page fully */
 body {
-    height: 100vh;
-    width: 100vw;
+    height: 84vh;
+    width: 84vw;
     background: white;
     background-color: white;
     color: black;
