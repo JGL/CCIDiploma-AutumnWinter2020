@@ -2,27 +2,27 @@
 
 ## Information
 
-- [All term dates](https://www.arts.ac.uk/students/term-dates)
-- Lecturer: [Joel Gethin Lewis](https://joelgethinlewis.com/)
+- [All term dates](https://www.arts.ac.uk/students/term-dates) - N.B. if you are doing a degree at UAL you are in [Higher Education](https://en.wikipedia.org/wiki/Higher_education).
+- Lecturer: [Joel Gethin Lewis](https://joelgethinlewis.com/).
 - Location: [Creative Computing Institute](https://www.arts.ac.uk/creative-computing-institute), Camberwell, London and online!
-- Contact me via the [UAL Creative Computing Institute Slack](https://ual-cci.slack.com)
+- Contact me via the [UAL Creative Computing Institute Slack](https://ual-cci.slack.com).
 - Weekly teaching times:
   - Week 1 of the 3 week rotation:
-    - In person session 1: Monday 1000-1300
-    - In person session 2: Monday 1400-1700
-    - In person session 3: Tuesday 1000-1300 (taught by [Alice Stewart](https://alicestew.art/))
+    - In person session 1: Monday 1000-1300.
+    - In person session 2: Monday 1400-1700.
+    - In person session 3: Tuesday 1000-1300 (taught by [Alice Stewart](https://alicestew.art/)).
   - Weeks 2 and 3 of the 3 week rotation:
-    - Remote sessions: Monday 1000-1300
+    - Remote sessions: Monday 1000-1300.
 - _**You are expected to undertake independent study of about 25 hours per week - spread across all the courses you are taking in the Diploma.**_
 - Tutorials take place every Tuesday. These tutorials are for you to discuss anything you'd like - from the how the course is going, to your own practice, to work placements or anything else. My aim is to have at least two tutorials with every student on the diploma every term.
-  - Remote session 1: Tuesdays 1000-1300
-  - Remote session 2: Tuesdays 1400-1700
+  - Remote session 1: Tuesdays 1000-1300.
+  - Remote session 2: Tuesdays 1400-1700.
   - Please see the [Unit 1 Wiki Tutorial Schedule](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki/Tutorial-Schedule) for details of when **your next** tutorial will be.
 - If **your next** tutorial is too far away, or you have a more urgent question, please message me on the [UAL Creative Computing Institute Slack](https://ual-cci.slack.com) first, then see the [Unit 1 Wiki Office Hours](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki/Office-Hours) for details of my office hours, where you can book yourself in for a chat about anything you'd like. My office hours are every Friday from 0900-1100.
 - [Unit 1 Moodle](https://moodle.arts.ac.uk/course/view.php?id=48806) - see the Unit 1 Moodle for links to pre-recorded lectures as well as Blackboard links to our remote teaching sessions.
 - [Lecture and Workshop slides](https://jgl.github.io/CCIDiploma-AutumnWinter2020/)
-- Please see the [Unit 1 Wiki for all non-lecture notes, reading lists and other resources](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki)
-- This unit is dedicated to the memory of [JT](https://github.com/jtnimoy) [Nimoy](https://twitter.com/jtnimoy)
+- Please see the [Unit 1 Wiki for all non-lecture notes, reading lists and other resources](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki).
+- This unit is dedicated to the memory of [JT](https://github.com/jtnimoy) [Nimoy](https://twitter.com/jtnimoy).
 
 ## Code of Conduct
 
