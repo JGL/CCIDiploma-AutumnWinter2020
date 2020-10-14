@@ -22,7 +22,6 @@
 - [Unit 1 Moodle](https://moodle.arts.ac.uk/course/view.php?id=48806) - see the Unit 1 Moodle for links to pre-recorded lectures as well as Blackboard links to our remote teaching sessions.
 - [Lecture and Workshop slides](https://jgl.github.io/CCIDiploma-AutumnWinter2020/)
 - Please see the [Unit 1 Wiki for all non-lecture notes, reading lists and other resources](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki).
-- This unit is dedicated to the memory of [JT](https://github.com/jtnimoy) [Nimoy](https://twitter.com/jtnimoy).
 
 ## Code of Conduct
 
@@ -117,13 +116,15 @@ Units 2 and 5 are assessed via an essay.
 
 Units 3 and 6 are assessed via the submission of a 5 minute video and accompanying PDF document.
 
-## Experiment/Play projects
+## Experiment/Play exercises
 
-In addition to the **formal assessment** at the end of **Blocks 1 and 2**, I will be setting weekly **Experiment/play** exercises. We will discuss and work on the weekly exercises in groups of three on Monday afternoons during the **Experiment/play** hour. The weekly **Experiment/play** exercises won't be assessed, but will be in your interest to complete.
+In addition to the **formal assessment** at the end of **Blocks 1 and 2**, we will be participating in weekly **Experiment/play** workshops. We will discuss and work on the weekly exercises in groups of three on Monday afternoons during the **Experiment/play** hour. The weekly **Experiment/play** exercises won't be assessed, but will be in your interest to complete.
 
 The **Experiment/play** exercises will be based on excerpts from the upcoming [Code as Creative Medium: An educator's handbook](https://mitpress.mit.edu/books/code-creative-medium) by [Golan Levin](http://flong.com/) and [Tega Brain](http://tegabrain.com/).
 
-Remember that small, short, technical exercises can be the root of much bigger ideas and projects that could last a lifetime.
+This of idea of small technical exercises was inspired by [Caitlin Morris](http://www.caitlinmorris.net/) and her advice:
+
+> Remind students that technical exercises can be the root of a bigger idea. I’ve had students submit small sketches along with their introductory exercises under the prompt of “if I worked on this for another month/year, what could it become?”. Some really beautiful ideas emerge and I’ve found that it makes students more concept-attentive in their weekly projects, as well as providing some groundwork for larger final projects.
 
 ~~Throughout the term, you will be working in pairs. This is a technique known as [Pair Programming](https://en.wikipedia.org/wiki/Pair_programming). You may change pair partner as often or sparingly as you like.~~
 
@@ -139,7 +140,7 @@ Following the <a href="https://twitter.com/helenbevan/status/1175650749797167104
 
 - Hour 1: **Introduction lecture** - use the [Unit 1 Moodle](https://moodle.arts.ac.uk/course/view.php?id=48806) to watch my pre-recorded introduction lecture on the course, creative coding, Javascript and specifically p5.js. [Slides for reference](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_00.html).
 - Hour 2: [**Introduction workshop**](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/workshop_00.html) - signing up for websites, introducing yourselves and having a discussion about the unit and course.
-- Hour 3: **Watch/listen 1** - use the [Unit 1 Moodle](https://moodle.arts.ac.uk/course/view.php?id=48806) to absorb a pre-recorded [lecture from me on Counting and Remembering], in preparation for next weeks session. [Slides for reference](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_01.html).
+- Hour 3: **Watch/listen 1** - use the [Unit 1 Moodle](https://moodle.arts.ac.uk/course/view.php?id=48806) to absorb a pre-recorded lecture from me on Counting and Remembering, in preparation for next weeks session. [Slides for reference](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_01.html).
 
 ## Week 2 - Monday 26th October 2020 (week 44 of 53) - Remote learning - Counting and Remembering
 
@@ -230,6 +231,10 @@ Following the <a href="https://twitter.com/helenbevan/status/1175650749797167104
 - Hour 3: **Watch/listen 13** - use the [Unit 1 Moodle](https://moodle.arts.ac.uk/course/view.php?id=48806) to absorb a pre-recorded lecture from me on TBC. [Slides for reference](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_13.html).
 
 Further sessions are TBC, depending on multiple choice test and practical exam timings, and other unit's assessment timings.
+
+## Dedication
+
+This unit is dedicated to the memory of [JT](https://github.com/jtnimoy) [Nimoy](https://twitter.com/jtnimoy).
 
 ## Thanks
 
