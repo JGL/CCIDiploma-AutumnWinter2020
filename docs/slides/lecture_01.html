@@ -41,11 +41,15 @@
   <div>I promise that by the end of this lecture you'll be able to count to over a million using just your fingers and toes.</div>
   <div>The artist of the day is <a href="https://www.tate.org.uk/whats-on/tate-modern/exhibition/agnes-martin/who-is-agnes-martin">Agnes
       Martin</a></div>
-  <div>I was first drawn to her work by a quote:"To progress in life you must give up the things that you do not like. Give up doing the things that you do not like to do. You must find the things that you do like. The things that are acceptable to your mind."
+  <div>I was first drawn to her work by a quote: "To progress in life you must give up the things that you do not like. Give up doing the things that you do not like to do. You must find the things that you do like. The things that are acceptable to your mind."
   </div>
   <div>I think alot of Agnes's work is about counting and remembering, which is why she's perfect for today's lecture - which is on exactly those things!
   </div>
-  <div>A few more artists for you.</div>
+  <div>Today's lecture is titled: Counting and Remembering.</div>
+  <div>I'm going to start by teaching you about counting, specifically binary numbers, what they are and why computers use them.</div>
+  <div>Then I'm going to teach you about how computers remember information. Computers store this information in things called constants (if they never change) or variables (if they change). Constants are useful (for things like Pi or the number of days in a week), but we are going to use variables much more.</div>
+  <div>All that computers do is remember things by storing data (as constants or variables) and change those memories through commands. One thing they are very good at is remembering a number and then adding to it.</div>
+  <div>But before we get into how they remember numbers, a few more artists for you and some tips on practice.</div>
   <div>
     <a href="https://www.tate.org.uk/whats-on/tate-modern/exhibition/anni-albers">Anni
       Albers</a> said: "Being creative is not so much the desire to do something as the listening to that which wants to be done: the dictation of the materials." Don't forget to listen to your materials.
@@ -59,7 +63,7 @@
   </div>
   <div>Some thoughts about practice.</div>
   <div>
-    What is Practice? When I thought about it, it helped me alot. I like it because the word has many meanings, like many words. What meanings does it have for you? Have you heard it at UAL alot? What is a practice? What is your practice? What is the question that moves you in a direction? Or in no direction? <a href="https://joelgethinlewis.com/presentations/AHOPresentationTheFuture2019/#/">My presentation about the future</a> that I also presented in Oslo recently.
+    What is Practice? When I thought about it, it helped me alot. I like it because the word has many meanings, like many words. What meanings does it have for you? Have you heard it at UAL alot? What is a practice? What is your practice? What is the question that moves you in a direction? Or in no direction? <a href="https://joelgethinlewis.com/presentations/AHOPresentationTheFuture2019/#/">My presentation about the future</a> (or my practice) that I gave in Oslo last year.
   </div>
   <div>A pair of thoughts on how to help each other.</div>
   <div>
@@ -83,7 +87,7 @@
     do we need an extra digit?
   </div>
   <div>
-    What's the biggest number you can count to on your fingers? On your fingers and toes?
+    What's the biggest number you can count to on your fingers in decimal? What about in binary? What about if you use your fingers AND toes?
   </div>
   <div>Tell the binary joke Joel!</div>
   <div>
@@ -108,7 +112,7 @@
   <div>
     <ul>
       <li>There are different ways of storing numbers and words in computers, as a whole these values
-        are known as <a href="https://en.wikipedia.org/wiki/Data_type">Data types</a>.</li>
+        are known as <a href="https://en.wikipedia.org/wiki/Data_type">Data types</a>. Data types can be variable or constant - as mentioned earlier.</li>
       <li>Whole numbers or Integers are stored as <a href="https://en.wikipedia.org/wiki/Integer_%28computer_science%29">ints</a>. E.g. 0, 5,
         -567.</li>
       <li>Numbers which are in between whole numbers are stored as <a href="https://en.wikipedia.org/wiki/Floating-point_arithmetic">Floating Points or
@@ -129,76 +133,28 @@
       </li>
       <li>Strings are one <a href="https://en.wikipedia.org/wiki/Dimension">dimensional</a> arrays.
         We'll be discussing more about arrays or lists in lecture 5.</li>
-      <li>Data can be stored as fixed values (<a href="https://en.wikipedia.org/wiki/Constant_(computer_programming)">constants</a>) or
+      <li>Remember: data can be stored as fixed values (<a href="https://en.wikipedia.org/wiki/Constant_(computer_programming)">constants</a>) or
         values that can change (<a href="https://en.wikipedia.org/wiki/Variable_%28computer_science%29">variables</a>).
       </li>
     </ul>
   </div>
+  <div>Let's try out some JavaScript variables by going through the <a href="https://github.com/processing/p5.js/wiki/JavaScript-basics">JavaScript basic's page on the p5.js wiki</a>, all the way up to the <a href="https://github.com/processing/p5.js/wiki/JavaScript-basics#maths-functions">Math (sic) functions section</a>. You are going to encounter "functions" while I go through the page - they are just ways of packaging up several commands in one bigger command - remember that computers only remember things and change those memories with commands.</div>
+  <div>All lines in JavaScript must finish with a ";" - it's just a way that the computer works out which line is which.</div>
+  <div>The two really important things I want you to remember from that is that you can use the "let" keyword to make new data (or variables) - e.g. <i>let myName = "Joel";</i> and that you can do things with data using commands (or functions) - e.g. <i>console.log(myName);</i>, which prints out the value of myName ("Joel") to the JavaScript console.</div>
   <div>
     <ul>
-      <li>Revision: What is a <a href="https://en.wikipedia.org/wiki/Data_type">Data type</a>? What kinds of Data types are there?</li>
+      <li>Revision: after this lecture, ask yourself: What is a <a href="https://en.wikipedia.org/wiki/Data_type">Data type</a>? What kinds of Data types are there?</li>
       <li>What kind is an int?</li>
       <li>What kind is a string?</li>
       <li>What kind is a float?</li>
-      <li>What kind is an array?</li>
+      <li>What kind is an array (or list)?</li>
       <li>What kind is a vector?</li>
       <li>What kind is a bool?</li>
       <li>What kind is a queue?</li>
       <li>What kind is a char?</li>
     </ul>
   </div>
-  <div>
-    <ul>
-      <li>Thanks to <a href="https://www.edge.org/response-detail/10298">Terrence J. Sejnowski and his
-          article on Edge.org</a> for the following examples.</li>
-      <li>How many seconds are there in a lifetime? 10^9 seconds.</li>
-      <li><q>A second is an arbitrary time unit, but one that is based on our experience. Our visual
-          system is bombarded by snapshots at a rate of around 3 per second caused by rapid eye
-          movements called saccades. Athletes often win or lose a race by a fraction of a second.
-          If you earned a dollar for every second in your life you would be a billionaire.
-          However, a second can feel like a minute in front of an audience and a quiet weekend can
-          disappear in a flash. As a child, a summer seemed to last forever, but as an adult,
-          summer is over almost before it begins. William James speculated that subjective time
-          was measured in novel experiences, which become rarer as you get older. Perhaps life is
-          lived on a logarithmic time scale, compressed toward the end.</q></li>
-    </ul>
-  </div>
-  <div>
-    <ul>
-      <li>What is the GDP of the world? $10^14.</li>
-      <li><q>A billion dollars was once worth a lot, but there is now a long list of
-          multibillionaires. The US government recently stimulated the world economy by loaning
-          several trillion dollars to banks. It is difficult to grasp how much a trillion dollars
-          ($10^12) represents, but several clever videos on YouTube (key words: trillion dollars)
-          illustrate this with physical comparisons (a giant pile of $100 bills) and what you can
-          buy with it (10 years of US response to 9/11). When you start thinking about the world
-          economy, the trillions of dollars add up. A trillion here, a trillion there, pretty soon
-          your talking about real money. But so far there aren't any trillionaires.</q></li>
-    </ul>
-  </div>
-  <div>
-    <ul>
-      <li>How many synapses are there in the brain? 10^15.</li>
-      <li><q>Two neurons can communicate with each other at a synapse, which is the computational unit
-          in the brain. The typical cortical synapse is less than a micron in diameter (10^-6
-          metres), near the resolution limit of the light microscope. If the economy of the world
-          is a stretch for us to contemplate, thinking about all the synapses in your head is mind
-          boggling. If I had a dollar for every synapse in your brain I could support the current
-          economy of the world for 10 years. Cortical neurons on average fire once a second, which
-          implies a bandwidth of around 10^15 bits per second, greater than the total bandwidth of
-          the internet backbone.</q></li>
-    </ul>
-  </div>
-  <div>
-    <ul>
-      <li>How many seconds will the sun shine? 10^17 seconds</li>
-      <li><q>Our sun has shined for billions of years and will continue to shine for billions more.
-          The universe seems to be standing still during our lifetime, but on longer time scales
-          the universe is filled with events of enormous violence. The spatial scales are also
-          immense. Our space-time trajectory is a very tiny part of the universe, but we can at
-          least attach powers of 10 to it and put it into perspective.</q></li>
-    </ul>
-  </div>
+  <div>Let's finish with two films about the scale of the universe and the scale of numbers.</div>
   <div>
     Artwork: Powers of Ten by the Eames Office<br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/0fKBhvDjuy0?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
   </div>

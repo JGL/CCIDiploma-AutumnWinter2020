@@ -40,34 +40,31 @@
   <div>I'm going to start every lecture with a promise and an artist to reference.</div>
   <div>I promise that by the end of this lecture you'll be understand how everything your computer displays on it's screen is an illusion and not really in motion at all.</div>
   <div>The artist of the day is <a href="http://lillian.com/">Lilian
-      Schwarz</a></div>
+      Schwarz</a>.</div>
   <div><iframe src="https://player.vimeo.com/video/98960229?portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
     <p><a href="https://vimeo.com/98960229">Lillian Schwartz</a> from <a href="https://vimeo.com/147750678">Ben
         Rubin</a>.</p>
   </div>
-  <div>I think alot of Lilian's work is about drawing and colouring, which is why she's perfect for today's lecture - which is on exactly those things!</div>
+  <div>I think alot of Lilian's work is about digital drawing and colouring, which is why she's perfect for today's lecture - which is on exactly those things!</div>
+  <div>Today's lecture is titled: Drawing and Colouring.</div>
+  <div>I'm going to start by talking about drawing on paper, before looking at how we can draw on a computer using p5.js.</div>
+  <div>Drawing in black and white (or greyscale) using p5.js needs two things: data (either variables or constants) and premade commands (or functions).</div>
+  <div>Colouring using p5.js needs the same two things: variables and functions, but the variables will need to be multi-dimensional in order to be able to describe all the colours that we humans can see. Can you think of a way of storing several different values in one thing? How would you remember all the things you'd like to buy at the <a href="https://www.arts.ac.uk/study-at-ual/facilities/arts-shop">arts shop</a>? Another way to think about the idea of dimensions is just to think of how many different numbers (or any kind of data) we need to describe something - the most common you've encountered so far probably being space - or the spatial dimensions.</div>
+  <div>Let's start with drawing on paper. How many numbers do you need to describe where you are on a piece of paper?</div>
   <div>
-    <h3>3. Drawing on paper.</h3>
-    <ul>
-      <li>Next we are going to talk about drawing, first on a piece of paper. Later, We are also going to think about the idea of dimensions - how many variables we use to describe something - the most common you've encountered so far probably being space - or the spatial dimensions.</li>
-      <li>Before we get onto that, lets get into three's and get a piece of paper for each group and a pen each too.</li>
-      <li>One person is going to be the model, one person is going to be the blind drawing robot and one person is going to be the sighted drawing instruction robot.</li>
-    </ul>
+    To think about drawing on paper, let's try an exercise. One person is going to be the model, one person is going to be the blind drawing robot and one person is going to be the sighted drawing instruction robot - because of COVID-19, I'm going to have to play all the roles for you!
   </div>
   <div>
-    <h3>3. Drawing on paper (continued).</h3>
     <ul>
       <li>Model - you have to make sure the blind drawing robot doesn't cheat, and pose your hand using a secret number of fingers.</li>
       <li>Blind drawing robot - listen for commands.</li>
       <li>Sighted drawing instruction robot - which command are you going to give first? You aren't allowed to say how many fingers the hand model is holding up, you can only say commands like "take off pen lid" or "move your hand down until I say stop".</li>
-      <li>Go!</li>
+      <li>Let's pick the number 8 to draw.</li>
     </ul>
   </div>
-  <div>https://p5js.org/get-started/ lets do this tutorial - some things we'll learn about later but most imporant thing is to swap from 50,50 to mouseX and mouseY</div>
-  <div>Let's go through this tutorial together: https://p5js.org/learn/coordinate-system-and-shapes.html</div>
-  <div>https://p5js.org/examples/structure-coordinates.html</div>
+  <div>What was hard (or funny) about that?</div>
+  <div>I had to be really precise with myself, right? I had to break up something simple like "Draw the number 8" into lots of smaller commands AND I had to have a way of saying where on the page the robot should draw. That's exactly what we are going to have do when we write drawing code in p5.js - a way of saying where we are on the screen and a way of drawing simple shapes that we can build up into more complicated ones.</div>
   <div>
-    <h3>4. Moving from zero spatial dimensions to one and on to two.</h3>
     <ul>
       <li> Starting with zero spatial (or physical space) dimensions - a point.</li>
       <li>Moving from zero spatial dimensions to one and on to two or going from a point to line to a square.</li>
@@ -75,7 +72,6 @@
     </ul>
   </div>
   <div>
-    <h3>4. Moving from zero spatial dimensions to one and on to two (continued).</h3>
     <ul>
       <li>How do we describe points on a square or a flat piece of paper so that other people know where we are describing?</li>
       <li>Formally: (x,y) pairs are used to describe <a href="https://en.wikipedia.org/wiki/Cartesian_coordinate_system">Cartesian co-ordinates</a> in <a href="https://en.wikipedia.org/wiki/Euclidean_space">Euclidean space</a>.</li>
@@ -85,12 +81,7 @@
       <li>Pythagoras' theorem is used to work out how big the longest side of a triangle with a right angle in it is - see proofs on <a href="https://en.wikipedia.org/wiki/Pythagorean_theorem">Wikipedia page</a> and <a href="https://betterexplained.com/articles/surprising-uses-of-the-pythagorean-theorem/">Better Explained</a>. P.S. <a href="https://betterexplained.com/cheatsheet/">Better Explained is AWESOME</a>!</li>
     </ul>
   </div>
-  <div>https://p5js.org/examples/form-points-and-lines.html</div>
-  <div>https://p5js.org/examples/form-shape-primitives.html</div>
-  <div>https://p5js.org/examples/data-variables.html</div>
-  <div>https://p5js.org/examples/data-variable-scope.html</div>
   <div>
-    <h3>4. Moving from zero spatial dimensions to one and on to two (continued).</h3>
     <ul>
       <li>What is a <a href="https://en.wikipedia.org/wiki/Circle">circle</a>? "It is the set of all points in a plane that are at a given distance from a given point".</li>
       <li><a href="https://betterexplained.com/articles/a-gentle-introduction-to-learning-calculus/">A Gentle Introduction To Learning Calculus</a> from Better Explained. Calculus is the formal name for thinking about graphs - the area under a curve (or the integral) or how steep a curve is (the differential).</li>
@@ -98,21 +89,25 @@
       <li>How to work out the size of angles in a triangle using the lengths of a triangle or other angles aka Sine and cosine and tangent functions aka <a href="https://betterexplained.com/articles/intuitive-trigonometry/">Trigonometry</a> again, from Better Explained.</li>
     </ul>
   </div>
-  <div>https://p5js.org/examples/math-sine.html</div>
-  <div>https://p5js.org/examples/math-sine-cosine.html</div>
-  <div>https://p5js.org/examples/interaction-follow-1.html</div>
-  <div>https://p5js.org/examples/interaction-follow-2.html - too arrayey?</div>
+  <div>Let's go through <a href="https://p5js.org/examples/form-shape-primitives.html">the p5.js shape primitives example</a> together.</div>
+  <div>Let's go through <a href="https://p5js.org/examples/data-variables.html">the p5.js data variables example</a> together.</div>
+  <div>Let's go through this tutorial on <a href="https://p5js.org/learn/coordinate-system-and-shapes.html">Coordinate System and Shapes</a> together. Remember, a Co-ordinate system is a system for describing position.</div>
   <div>
-    <h3>4. Moving from zero spatial dimensions to one and on to two (continued).</h3>
+    As well as commands that specify exact positions, you can use <a href="https://p5js.org/reference/#group-Transform">transformations</a> to move your digital drawing tool around like I commanded myself earlier. See <a href="https://p5js.org/examples/form-points-and-lines.html">this Points and Lines example</a> for how to use <a href="https://p5js.org/reference/#/p5/translate">translate()</a> to do that. You can also <a href="https://p5js.org/reference/#/p5/rotate">rotate()</a>, <a href="https://p5js.org/reference/#/p5/scale">scale().</a>
+  </div>
+  <div>N.B. you can use <a href="https://p5js.org/reference/#/p5/push">push()</a> and <a href="https://p5js.org/reference/#/p5/pop">pop()</a> to remember different drawing states. Chicken and egg in terms of colour, but I wanted you to know about push and pop, before we get on to some INTERACTION! One more thing - <a href="https://p5js.org/examples/interaction-kaleidoscope.html">check out this advanced Kaleidoscope for some push() and pop() action.</a></div>
+  <div>Now let's go through the <a href="https://p5js.org/get-started/">p5.js Get Started tutorial</a> together. Remember the Chicken and Egg problem for teaching coding from the first lecture? We are going to encouter that here when you see an "if" statement. Don't worry about that for now, the most important thing is when we start using variables instead of constant (or fixed) values to draw with. This is the most important thing you are going to learn today and maybe for the whole course - that computers can have values that change over time, and that they'll do the work of changing them for you - allowing you to make INTERACTIVE animations or music or art or anything!</div>
+  <div><a href="https://p5js.org/examples/interaction-follow-1.html">Bringing together drawing, transformations and push and pop to make a lovely follow interaction</a>.</div>
+  <div>Before we move onto Colour, I'd like to show you one more reference of the power of drawing and interaction, one that's enabled by a technical (or obsfucatory) term: The <a href="https://en.wikipedia.org/wiki/Voronoi_diagram">Voronoi diagram</a>:</div>
+  <div>
     <ul>
       <li>The <a href="https://en.wikipedia.org/wiki/Voronoi_diagram">Voronoi diagram</a> is the diagram of boundaries between a set of points such that within the boundaries, one is closer to that point than any other.</li>
-      <li>The <a href="https://en.wikipedia.org/wiki/Delaunay_triangulation">Delaunay triangulation</a> is the diagram of triangles of the Voronoi diagram such that no triangle is within another.</li>
       <li>The Voronoi diagram <a href="http://www.raymondhill.net/voronoi/rhill-voronoi.html">interactively</a>.</li>
       <li>Artwork: <a href="https://www.snibbe.com/digital-art#/projects/interactive/boundaryfunctions/">Boundary Functions</a> by <a href="https://www.snibbe.com/">Scott Snibbe</a>, who now works for Facebook.</li>
     </ul>
   </div>
+  <div>OK, now onto colour and colour on computers:</div>
   <div>
-    <h3>6. Colour and colour on computers.</h3>
     <ul>
       <li>You can map any three variables into three dimensions to help you think about them spatially (i.e. in physical space).</li>
       <li>An example of this is mixing together Red, Green and Blue (<a href="https://en.wikipedia.org/wiki/RGB_color_model">RGB</a>) colours to make any other colour.</li>
@@ -122,17 +117,16 @@
       <li>I often use HSB in digital work to make it easy to blend between colours - much easier than RGB. You can visualise colour using a <a href="https://en.wikipedia.org/wiki/Color_wheel">colour wheel</a> or a <a href="https://en.wikipedia.org/wiki/Color_solid">colour solid</a>. <a href="https://en.wikipedia.org/wiki/Complementary_colors">Complementary colours</a> are on opposite sides of the colour wheel.</li>
       <li><a href="https://en.wikipedia.org/wiki/Color_theory">Colour theory</a> is a huge area of study, for graphic design and even <a href="https://en.wikipedia.org/wiki/Color_psychology">psychology</a>.</li>
     </ul>
-    </h3>
   </div>
   <div>
-    <h3>6. Colour and colour on computers (continued).</h3>
-    <ul>
-      <li>Rune Madsen's great series "Programming Design systems" has brilliant chapters on <a href="https://www.programmingdesignsystems.com/color/a-short-history-of-color-theory/index.html">A short history of color(sic) theory</a>, <a href=" https://www.programmingdesignsystems.com/color/color-models-and-color-spaces/index.html">Color(sic) models and color(sic) spaces</a> and <a href="https://www.programmingdesignsystems.com/color/perceptually-uniform-color-spaces/index.html">Perceptually uniform color(sic) spaces</a>. Let's take a look. (sic) means I know it's spelt wrong!</li>
-    </ul>
-    </h3>
+    Rune Madsen's great series "Programming Design systems" has brilliant chapters on <a href="https://www.programmingdesignsystems.com/color/a-short-history-of-color-theory/index.html">A short history of color(sic) theory</a>, <a href=" https://www.programmingdesignsystems.com/color/color-models-and-color-spaces/index.html">Color(sic) models and color(sic) spaces</a> and <a href="https://www.programmingdesignsystems.com/color/perceptually-uniform-color-spaces/index.html">Perceptually uniform color(sic) spaces</a>. By the way, (<a href="https://en.wikipedia.org/wiki/Sic">sic</a>) means I know it's spelt wrong!
   </div>
-  <div>https://p5js.org/learn/color.html lets go through this together</div>
-  <div>https://p5js.org/examples/color-color-variables.html</div>
+  <div>Let's go through <a href="https://p5js.org/learn/color.html">the p5.js color (sic) tutorial</a> together.</div>
+  <div>Let's take a look at <a href="https://p5js.org/examples/color-color-variables.html">two ways of storing colour information in p5.js</a>.</div>
+  <div>Finally, let's bring all the new things we've learnt today about drawing and colouring to make some animations using colour and sine and cosine:</div>
+  <div>https://p5js.org/examples/math-sine.html</div>
+  <div>https://p5js.org/examples/math-sine-cosine.html</div>
+  <div>What about if we used interactive variables (like mouse position) instead of just adding on to the angle variable every frame? 🤯</div>
   <div>Thanks! <br /><a href="../index.html">Back to slide index</a>.</div>
 </body>
 
