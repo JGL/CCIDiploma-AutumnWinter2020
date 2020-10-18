@@ -47,8 +47,20 @@
   </div>
   <div>I think alot of Lilian's work is about digital drawing and colouring, which is why she's perfect for today's lecture - which is on exactly those things!</div>
   <div>Today's lecture is titled: Drawing and Colouring.</div>
+  <div>By the end of this lecture, you'll know more about:
+    <ul>
+      <li>Drawing on paper - with me being a drawing robot</li>
+      <li>Going from 0 dimensions to 1 dimension to 2 dimensions</li>
+      <li>Drawing shapes in p5.js</li>
+      <li>The Voronoi Diagram</li>
+      <li>Colour, Colour in the real world and Colour on digital computers</li>
+      <li>Our first interactive p5.js code</li>
+      <li>Bringing everything we've learnt today into a pair of examples that use two functions (Sine and Cosine) to make beautiful animations in p5.js</li>
+    </ul>
+  </div>
+  <div>The two main things we are going to think about today are various different functions and thinking in different numbers of dimensions - both feed into how to draw and colour on computers. Functions are things in maths or coding that take an input and give an output - or things that you can ask a question of and you'll get an answer. Dimensions could also be thought of as independent variables - like when you are drawing you might think about how far left and right you need to be on a page and (independently) how far up and down you need to be to draw the picture you want to.</div>
   <div>I'm going to start by talking about drawing on paper, before looking at how we can draw on a computer using p5.js.</div>
-  <div>Drawing in black and white (or greyscale) using p5.js needs two things: data (either variables or constants) and premade commands (or functions).</div>
+  <div>Drawing in black and white (or greyscale) using p5.js needs two things: <a href="https://en.wikipedia.org/wiki/Data_type">data types (either variables or constants)</a> and <a href="https://en.wikipedia.org/wiki/Subroutine">commands (or functions or subroutines)</a>.</div>
   <div>Colouring using p5.js needs the same two things: variables and functions, but the variables will need to be multi-dimensional in order to be able to describe all the colours that we humans can see. Can you think of a way of storing several different values in one thing? How would you remember all the things you'd like to buy at the <a href="https://www.arts.ac.uk/study-at-ual/facilities/arts-shop">arts shop</a>? Another way to think about the idea of dimensions is just to think of how many different numbers (or any kind of data) we need to describe something - the most common you've encountered so far probably being space - or the spatial dimensions.</div>
   <div>Let's start with drawing on paper. How many numbers do you need to describe where you are on a piece of paper?</div>
   <div>
@@ -66,7 +78,7 @@
   <div>I had to be really precise with myself, right? I had to break up something simple like "Draw the number 8" into lots of smaller commands AND I had to have a way of saying where on the page the robot should draw. That's exactly what we are going to have do when we write drawing code in p5.js - a way of saying where we are on the screen and a way of drawing simple shapes that we can build up into more complicated ones.</div>
   <div>
     <ul>
-      <li> Starting with zero spatial (or physical space) dimensions - a point.</li>
+      <li>Starting with zero spatial (or physical space) dimensions - a point.</li>
       <li>Moving from zero spatial dimensions to one and on to two or going from a point to line to a square.</li>
       <li>Artwork: <a href="https://en.wikipedia.org/wiki/Flatland">Flatland by Edwin Abbott Abbott</a>.</li>
     </ul>
@@ -77,26 +89,26 @@
       <li>Formally: (x,y) pairs are used to describe <a href="https://en.wikipedia.org/wiki/Cartesian_coordinate_system">Cartesian co-ordinates</a> in <a href="https://en.wikipedia.org/wiki/Euclidean_space">Euclidean space</a>.</li>
       <li>X is for measuring how much left or right on the piece of paper, and Y is for measuring how much up or down on the piece of paper.</li>
       <li>Y on computers is the opposite way to the way you learnt in school - because old computers scanned from the top down using <a href="https://en.wikipedia.org/wiki/Cathode_ray_tube">Cathode Ray Tubes</a>.</li>
-      <li><a href="https://en.wikipedia.org/wiki/Area">Area</a> - if you double the width and the height, area scales x4 NOT x2.</li>
+      <li><a href="https://en.wikipedia.org/wiki/Area">Area</a> - if you double the width and the height of a rectangle, area scales x4 NOT x2. Why?</li>
       <li>Pythagoras' theorem is used to work out how big the longest side of a triangle with a right angle in it is - see proofs on <a href="https://en.wikipedia.org/wiki/Pythagorean_theorem">Wikipedia page</a> and <a href="https://betterexplained.com/articles/surprising-uses-of-the-pythagorean-theorem/">Better Explained</a>. P.S. <a href="https://betterexplained.com/cheatsheet/">Better Explained is AWESOME</a>!</li>
     </ul>
   </div>
   <div>
     <ul>
-      <li>What is a <a href="https://en.wikipedia.org/wiki/Circle">circle</a>? "It is the set of all points in a plane that are at a given distance from a given point".</li>
+      <li>What is a <a href="https://en.wikipedia.org/wiki/Circle">circle</a>? It is "the set of all points in a (flat)plane that are at a given distance from a given point".</li>
       <li><a href="https://betterexplained.com/articles/a-gentle-introduction-to-learning-calculus/">A Gentle Introduction To Learning Calculus</a> from Better Explained. Calculus is the formal name for thinking about graphs - the area under a curve (or the integral) or how steep a curve is (the differential).</li>
       <li>Sine waves are curves that go up and down in a regular way forever.<a href="https://betterexplained.com/articles/intuitive-understanding-of-sine-waves/">Intuitive Understanding of Sine Waves</a>.</li>
       <li>How to work out the size of angles in a triangle using the lengths of a triangle or other angles aka Sine and cosine and tangent functions aka <a href="https://betterexplained.com/articles/intuitive-trigonometry/">Trigonometry</a> again, from Better Explained.</li>
     </ul>
   </div>
-  <div>Let's go through <a href="https://p5js.org/examples/form-shape-primitives.html">the p5.js shape primitives example</a> together.</div>
+  <div>Let's go through <a href="https://p5js.org/examples/form-shape-primitives.html">the p5.js shape primitives example</a> together. You can use and edit any of the p5.js examples directly on their web pages, but I'm going to copy and paste them into the <a href="https://editor.p5js.org/">p5.js editor</a> so you see how to use it.</div>
   <div>Let's go through <a href="https://p5js.org/examples/data-variables.html">the p5.js data variables example</a> together.</div>
   <div>Let's go through this tutorial on <a href="https://p5js.org/learn/coordinate-system-and-shapes.html">Coordinate System and Shapes</a> together. Remember, a Co-ordinate system is a system for describing position.</div>
   <div>
     As well as commands that specify exact positions, you can use <a href="https://p5js.org/reference/#group-Transform">transformations</a> to move your digital drawing tool around like I commanded myself earlier. See <a href="https://p5js.org/examples/form-points-and-lines.html">this Points and Lines example</a> for how to use <a href="https://p5js.org/reference/#/p5/translate">translate()</a> to do that. You can also <a href="https://p5js.org/reference/#/p5/rotate">rotate()</a>, <a href="https://p5js.org/reference/#/p5/scale">scale().</a>
   </div>
   <div>N.B. you can use <a href="https://p5js.org/reference/#/p5/push">push()</a> and <a href="https://p5js.org/reference/#/p5/pop">pop()</a> to remember different drawing states. Chicken and egg in terms of colour, but I wanted you to know about push and pop, before we get on to some INTERACTION! One more thing - <a href="https://p5js.org/examples/interaction-kaleidoscope.html">check out this advanced Kaleidoscope for some push() and pop() action.</a></div>
-  <div>Now let's go through the <a href="https://p5js.org/get-started/">p5.js Get Started tutorial</a> together. Remember the Chicken and Egg problem for teaching coding from the first lecture? We are going to encouter that here when you see an "if" statement. Don't worry about that for now, the most important thing is when we start using variables instead of constant (or fixed) values to draw with. This is the most important thing you are going to learn today and maybe for the whole course - that computers can have values that change over time, and that they'll do the work of changing them for you - allowing you to make INTERACTIVE animations or music or art or anything!</div>
+  <div>Now let's go through the <a href="https://p5js.org/get-started/">p5.js Get Started tutorial</a> together, using the p5.js editor. Remember the Chicken and Egg problem for teaching coding from the first lecture? We are going to encouter that here when you see an "if" statement. Don't worry about that for now, the most important thing is when we start using variables instead of constant (or fixed) values to draw with. This is the most important thing you are going to learn today and maybe for the whole course - that computers can have values that change over time, and that they'll do the work of changing them for you - allowing you to make INTERACTIVE animations or music or art or anything!</div>
   <div><a href="https://p5js.org/examples/interaction-follow-1.html">Bringing together drawing, transformations and push and pop to make a lovely follow interaction</a>.</div>
   <div>Before we move onto Colour, I'd like to show you one more reference of the power of drawing and interaction, one that's enabled by a technical (or obsfucatory) term: The Voronoi diagram:</div>
   <div>
@@ -126,7 +138,7 @@
   <div>Finally, let's bring all the new things we've learnt today about drawing and colouring to make some animations using colour and sine and cosine:</div>
   <div><a href="https://p5js.org/examples/math-sine.html">https://p5js.org/examples/math-sine.html</a></div>
   <div><a href="https://p5js.org/examples/math-sine-cosine.html">https://p5js.org/examples/math-sine-cosine.html</a></div>
-  <div>What about if we used interactive variables (like mouse position) instead of just adding on to the angle variable every frame? 🤯</div>
+  <div>In each of those last two examples, what if we used interactive variables (like mouse position) instead of just adding on to (<a href="https://github.com/processing/p5.js/wiki/JavaScript-basics#mathematical">or incrementing or the ++ symbol</a>) the angle variable every frame? 🤯</div>
   <div>Thanks! <br /><a href="../index.html">Back to slide index</a>.</div>
 </body>
 

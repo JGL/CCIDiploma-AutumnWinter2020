@@ -37,34 +37,41 @@
   <div>
     Hi!
   </div>
-  <div>I promise that by the end of this lecture you'll be able to logic to allow your software to make decisions about the world.</div>
-  <div>The artist of the day is <a href="https://en.wikipedia.org/wiki/Sol_LeWitt">Sol LeWitt</a> was a pioneer in minimalist and conceptual art, drawing up rules or algorithms that then could be carried out by anyone - "The system is the work of art; the visual work of art is the proof of the system". <a href="http://solvingsol.com/">Solving Sol</a>, Javascript implementations of his works.</div>
-  <div><a href="http://printingcode.runemadsen.com/lecture-intro/">History of Design Systems</a> by <a href="https://runemadsen.com/">Rune Madsen</a> has a series of references on Sol LeWitt and others.</div>>
+  <div>I promise that by the end of this lecture you'll be able to use digital logic to allow your software to make decisions.</div>
+  <div>The artist of the day is <a href="https://en.wikipedia.org/wiki/Sol_LeWitt">Sol LeWitt</a>. Sol was a pioneer in minimalist and conceptual art, drawing up rules or algorithms that then could be carried out by anyone - "The system is the work of art; the visual work of art is the proof of the system". See <a href="http://solvingsol.com/">Solving Sol</a> for Javascript implementations of his works.</div>
+  <div><a href="http://printingcode.runemadsen.com/lecture-intro/">History of Design Systems</a> by <a href="https://runemadsen.com/">Rune Madsen</a> has a series of references on Sol LeWitt and others.</div>
   <div>Great <a href="https://www.artnome.com/news/2018/8/8/why-love-generative-art">recent article on Generative Art</a> by Jason Bailey.</div>
   <div>I think alot of Sol's work is about rules, which is why he's perfect for today's lecture - which is on exactly those things!</div>
-  <div>Section here of paragraph of intro - logic, decding things, a plan, choose your own adventure....</div>
-  <div>
-    <h3>2. Deciding - logic in humans and computers</h3>
+  <div>Today's lecture is titled: Deciding.</div>
+  <div>By the end of this lecture, you'll know more about:
     <ul>
-      <li><a href="https://en.wikipedia.org/wiki/Boolean_algebra">Boolean algebra</a>, named after <a href="https://en.wikipedia.org/wiki/George_Boole">George Boole</a>. The <a href="https://en.wikipedia.org/wiki/Boolean_data_type">Boolean data type</a> is a common to most programming languages - only two values - True (1) or False (0). One is true, nothing is false.</li>
-      <li>Boolean operators allow you to combine or invert boolean data types - the three basic ones are AND, OR and NOT.</li>
-      <li>Control flow in programming is how you control the flow of which part of the program is executed next.</li>
-      <li><a href="https://en.wikipedia.org/wiki/Conditional_(computer_programming)">Conditional statements</a>, such as if statements are very common.</li>
+      <li>Logic in humans and computers</li>
+      <li>Some more about functions, namely recursion (a function that calls itself)</li>
+      <li>The history of computing, and some of the people who were important along the way</li>
+      <li>How to use logic and functions together in p5.js code</li>
+      <li>How to move from two dimensions to three - or from squares to cubes</li>
+      <li>How to use everything we've learnt so far to make real time interaction happen using p5.js</li>
     </ul>
   </div>
-  <div>https://p5js.org/examples/structure-setup-and-draw.html lets try this example, which demonstrates the use of an if statement</div>
+  <div>The main thing I want you keep in mind today is that computers use something called logic to decide what to do. Coding is all about refining sets of rules and consequences to tell a computer how to decide what to do and what do once the decision has been made.</div>
   <div>
-    <h3>2. Functions and recursion.</h3>
     <ul>
-      <li>Instead of writing long lists of commands, one after another, functions allow programmers to package up functionality into smaller mini programs, known as <a href="https://en.wikipedia.org/wiki/Subroutine">functions or subroutines</a>.</li>
-      UPDATE THIS BASED ON PREVIOUS LECTURE
-      <li>Take input and return an output - an example might be a function that returns the square of an input number, or as complicated as <a href="https://en.wikipedia.org/wiki/42_(number)#The_Hitchhiker's_Guide_to_the_Galaxy">the answer to everything</a>.</li>
+      <li><a href="https://en.wikipedia.org/wiki/Boolean_algebra">Boolean algebra</a>, named after <a href="https://en.wikipedia.org/wiki/George_Boole">George Boole</a>. The <a href="https://en.wikipedia.org/wiki/Boolean_data_type">Boolean data type</a> is common to most programming languages, it only has two values: True (or 1) or False (or 0). One is true, nothing is false is how I remember it. What does something with only two values remind you of?</li>
+      <li>Control flow in programming is how you control the flow of which part of the program is executed next. <a href="https://github.com/processing/p5.js/wiki/JavaScript-basics#relational-ie-comparisons">Inside your control flow statements you'll use comparisons to decide how to compare things</a>.</li>
+      <li><a href="https://github.com/processing/p5.js/wiki/JavaScript-basics#logical-ie-boolean-logic-tests">Boolean operators allow you to combine or invert boolean data types - AND (or &&), OR (or ||) and NOT (or !)</a>.</li>
+      <li><a href="https://en.wikipedia.org/wiki/Conditional_(computer_programming)">Conditional statements</a>, such as <a href="https://github.com/processing/p5.js/wiki/JavaScript-basics#if">if/else statements</a> are very common. You might also see something called a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch">switch statement</a> - which is conceptually the same as lots of if statements in one place. BTW that new way of console.log()'ing variables uses something called <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals">Template literals</a> - I use them all the time.</li>
+    </ul>
+  </div>
+  <div><a href="https://p5js.org/examples/structure-setup-and-draw.html">This example: demonstrates the use of an if statement</a>. Let's try it cut and pasted into the p5.js editor. It's important to use { and } to enclose both functions AND if (or switch) statements. Those curly brackets help the computer decide something called <a href="https://en.wikipedia.org/wiki/Scope_(computer_science)">scope</a>, which is all about what values variables have.</div>
+  <div>
+    <ul>
+      <li>Remember from previous lecture - instead of writing long lists of commands, one after another, functions allow programmers to package up functionality into smaller mini programs, known as <a href="https://en.wikipedia.org/wiki/Subroutine">functions or subroutines</a>.</li>
+      <li>Functions take input(s) and return output(s) - an example might be a function that returns the square of an input number, or as complicated as <a href="https://en.wikipedia.org/wiki/42_(number)#The_Hitchhiker's_Guide_to_the_Galaxy">the answer to everything</a>.</li>
       <li><a href="https://en.wikipedia.org/wiki/Recursion">Recursion</a> is when something is defined in terms of itself. <a href="https://en.wikipedia.org/wiki/Recursion#Recursive_humor">Recursive humour is funny</a>. Recursion is also found in graphic design, art and cooking. In <a href="https://en.wikipedia.org/wiki/Recursion_(computer_science)">computer science recursion</a> is when a function calls itself repeatedly. The method of working out the <a href="https://en.wikipedia.org/wiki/Recursion_(computer_science)#Recursive_procedures">Factorial of any number</a> is a classic example.</li>
       <li>A <a href="https://en.wikipedia.org/wiki/Fractal">fractal</a> is a good example of something that is visually recursive.</li>
     </ul>
   </div>
   <div>
-    <h3>3. The Jacquard Loom, Charles Babbage and Ada Lovelace.</h3>
     <ul>
       <li><a href="https://en.wikipedia.org/wiki/Jacquard_loom">The Jacquard Loom</a> was the worlds first programmable object.</li>
       <li><a href="https://en.wikipedia.org/wiki/Charles_Babbage">Charles Babbage</a> is the inventor of the concept of a digital computer. Babbage was aware of the Jacquard Loom and expanded upon the punch card to invent both the <a href="https://en.wikipedia.org/wiki/Difference_engine">Difference Engine</a> and the <a href="https://en.wikipedia.org/wiki/Analytical_Engine">Analytical Engine</a>.</li>
@@ -72,7 +79,6 @@
     </ul>
   </div>
   <div>
-    <h3>4. Pāṇini, al-Khwarizmi, al-Jazari, Alan Turing, Tommy Flowers, Grace Hopper, Margaret Hamilton, Bugs and Hacking.</h3>
     <ul>
       <li><a href="https://en.wikipedia.org/wiki/P%C4%81%E1%B9%87ini">Pāṇini</a> pioneered a grammar that incorporated metarules and recursion - making the first <a href="https://en.wikipedia.org/wiki/Formal_language">formal language</a>.</li>
       <li><a href="https://en.wikipedia.org/wiki/Muhammad_ibn_Musa_al-Khwarizmi">Muhammad ibn Musa al-Khwarizmi</a> formalised algebra, his name gave rise to the word algorithm and introduced the decimal system to the western world.</li>
@@ -80,14 +86,12 @@
     </ul>
   </div>
   <div>
-    <h3>4. Pāṇini, al-Khwarizmi, al-Jazari, Alan Turing, Tommy Flowers, Grace Hopper, Margaret Hamilton, Bugs and Hacking (continued).</h3>
     <ul>
       <li><a href="https://en.wikipedia.org/wiki/Alan_Turing">Alan Turing</a> formalised the concept of the algorithm and computation in general. During the Second World War he led the team that broke German Naval codes. He went on to design one of the first stored program computers and did pioneering work in <a href="https://en.wikipedia.org/wiki/Morphogenesis">Morphogenesis</a>, or how living things form themselves. He was prosecuted by the British Government for being gay, and committed suicide in 1954. If an system is capable of general computation it is said to be <a href="https://en.wikipedia.org/wiki/Turing_completeness">Turing complete</a>. The <a href="https://en.wikipedia.org/wiki/Turing_test">Turing test</a> is a test of machine intelligence in comparison to human intelligence.</li>
       <li><a href="https://en.wikipedia.org/wiki/Tommy_Flowers">Tommy Flowers</a> was the engineer who built Turing's machine.</li>
     </ul>
   </div>
   <div>
-    <h3>4. Pāṇini, al-Khwarizmi, al-Jazari, Alan Turing, Tommy Flowers, Grace Hopper, Margaret Hamilton, Bugs and Hacking (continued).</h3>
     <ul>
       <li><a href="https://en.wikipedia.org/wiki/Grace_Hopper">Grace Hopper</a> invented the compiler for translating between human readable code and machine code.</li>
       <li><a href="https://en.wikipedia.org/wiki/Margaret_Hamilton_(scientist)">Margaret Hamilton</a> led the development of on-board flight software for NASAs Apollo Moon missions.</li>
@@ -96,11 +100,10 @@
       <li><a href="https://en.wikipedia.org/wiki/Hacker_culture">Hacker culture</a> is about curiosity, not breaking into computer systems. You are all hackers now.</li>
     </ul>
   </div>
-  <div>https://p5js.org/examples/data-numbers.html</div>
-  <div>https://p5js.org/examples/structure-redraw.html - notice again the use of an if statement and a new function mousePressed() </div>
-  <div>https://p5js.org/examples/drawing-continous-lines.html</div>
+  <div>Let's look at a <a href="https://p5js.org/examples/data-numbers.html">p5.js numbers example</a> to referesh our memory on the use of if statements and logical comparisons to decide how a program should behave.</div>
+  <div>Let's take a look at a <a href="https://p5js.org/examples/structure-redraw.html">p5.js example that makes use of three new functions</a> - <a href="https://p5js.org/reference/#/p5/noLoop">noLoop()</a>, <a href="https://p5js.org/reference/#/p5/mousePressed">mousePressed()</a> and <a href="https://p5js.org/reference/#/p5/redraw">redraw()</a>.</div>
+  <div>Before moving on to thinking about three dimensions, let's take a look at a <a href="https://p5js.org/examples/drawing-continous-lines.html">drawing continuous lines p5.js example</a> - what does this new <a href="https://github.com/processing/p5.js/wiki/JavaScript-basics#relational-ie-comparisons">===</a> thing mean? And what about <a href="https://p5js.org/reference/#/p5/pmouseX">pmouseX</a>? If you ever see something unknown in p5.js, where do you look it up?</div>
   <div>
-    <h3>4. Moving from two spatial dimensions to three</h3>
     <ul>
       <li>Going from a <a href="https://en.wikipedia.org/wiki/Square">square</a> to a <a href="https://en.wikipedia.org/wiki/Cube">cube</a>.</li>
       <li>The third dimension is usually described in terms of a new letter: z.</li>
@@ -110,17 +113,15 @@
     </ul>
   </div>
   <div>
-    <h3>4. Moving from two spatial dimensions to three (continued)</h3>
     <ul>
       <li>One way of storing three dimensional information is using <a href="https://en.wikipedia.org/wiki/Point_cloud">point clouds</a>.</li>
       <li>The output of three dimensional scanners is often in point clouds - a grid of positions, each with a depth value - think of <a href="https://en.wikipedia.org/wiki/Pin_Art">Pin Art</a> toys from the 1980's.</li>
       <li>Another way of storing three dimensional data is to use <a href="https://en.wikipedia.org/wiki/Voxel">Voxels</a> (from the initial letters of volume and element, with the insertion of -x- for ease of pronunciation).</li>
       <li>Voxels can be a super efficient way of storing three dimension information - used for everything from MRI scanners to Minecraft.</li>
-      <li>Creative uses of points in space: <a href="https://universaleverything.com/projects/motorstudio-design-room">Motorstudio Design Room </a> / <a href="https://www.youtube.com/watch?v=gyNHJQzn3pw">Hermès × Tokujin Yoshioka</a> / <a href="https://www.clairesophie.com/shining360excerpt">Shining360 by Claire Hentschker</a>.</li>
+      <li>Creative uses of three dimensions: <a href="https://universaleverything.com/projects/motorstudio-design-room">Motorstudio Design Room </a> / <a href="https://www.youtube.com/watch?v=gyNHJQzn3pw">Hermès × Tokujin Yoshioka</a> / <a href="https://www.clairesophie.com/shining360excerpt">Shining360 by Claire Hentschker</a>.</li>
     </ul>
   </div>
   <div>
-    <h3>4. Moving from two spatial dimensions to three (continued)</h3>
     <ul>
       <li>Another way of storing three dimensional information is using a series of <a href="https://en.wikipedia.org/wiki/Polygon">polygons</a>.</li>
       <li>Polygons are geometric objects with at least three straight lines and angles.</li>
@@ -130,16 +131,14 @@
     </ul>
   </div>
   <div>
-    <h3>4. Moving from two spatial dimensions to three (continued)</h3>
     <ul>
       <li>A <a href="https://en.wikipedia.org/wiki/Polyhedron">Polyhedron</a> is a three dimensional shape made of multiple polygons.</li>
       <li><a href="https://en.wikipedia.org/wiki/Platonic_solid">The Platonic Solids</a> are a set of three dimensional shapes that have been known about since <a href="https://en.wikipedia.org/wiki/Ancient_Greece">Ancient Greece</a> and possibly back to <a href="https://en.wikipedia.org/wiki/Neolithic">Neolithic</a> times.</li>
       <li><a href="http://paulbourke.net/">Paul Bourke maintains an amazing list of algorithms and code for dealing with: Geometry, Surfaces, Curves, Polyhedra, Fractals, Chaos, Self similarity, Photographic reconstruction, Domes, Planetariums, Fisheye, Spherical mirror, Stereographics and 3D Projection</a>. It's always my first place to check if I've got a geometric question.</li>
     </ul>
   </div>
-  <div>https://p5js.org/learn/program-flow.html - but save loops for lecture 4 and Asynchronicity in p5.js for lecture 6</div>
-  <div>https://p5js.org/learn/interactivity.html</div>
-  <div>https://p5js.org/examples/math-distance-1d.html</div>
+  <div>Let's take a look at <a href="https://p5js.org/examples/math-distance-1d.html">this p5.js example on 1 dimensional distance</a> that makes a simple but pleasing mouse interaction.</div>
+  <div>To finish up with, let's work through <a href="https://p5js.org/learn/interactivity.html">the p5.js tutorial on interactivity</a> - combining all we've learned about using variables and logic to make experiences that react to users in real time. As I always say, "real time or it didn't happen" - or if that was pre-rendered, it's not interactive, it's just a film!</div>
   <div>Thanks! <br /><a href="../index.html">Back to slide index</a>.</div>
 </body>
 
