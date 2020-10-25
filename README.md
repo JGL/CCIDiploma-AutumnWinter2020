@@ -22,6 +22,7 @@
 - [Unit 1 Moodle](https://moodle.arts.ac.uk/course/view.php?id=48806) - see the Unit 1 Moodle for links to pre-recorded lectures as well as Blackboard links to our remote teaching sessions.
 - [Lecture and Workshop slides](https://jgl.github.io/CCIDiploma-AutumnWinter2020/)
 - Please see the [Unit 1 Wiki for all non-lecture notes, reading lists and other resources](https://github.com/JGL/CCIDiploma-AutumnWinter2020/wiki).
+- STOP PRESS! [Take a look at the student/crowd sourced set of notes on all of Block 1](https://github.com/rociorey/cci-2020/wiki).
 
 ## Code of Conduct
 
