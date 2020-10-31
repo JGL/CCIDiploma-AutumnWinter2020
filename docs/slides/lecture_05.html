@@ -38,7 +38,7 @@
     Hi!
   </div>
   <div>I'm going to start every lecture with a promise and an artist to reference.</div>
-  <div>I promise that by the end of this lecture you'll be able to harness lists and randomness to create infinite variety in your work.</div>
+  <div>I promise that by the end of this lecture you'll be able to harness lists and randomness to create infinite variety on which to use your human intuition on.</div>
   <div>The artist of the day is <a href="https://en.wikipedia.org/wiki/Vera_Moln%C3%A1r">Vera</a> <a href="http://www.veramolnar.com/">Molnár</a>.</div>
   <div>I was first drawn to her work by seeing her piece <a href="https://collections.vam.ac.uk/item/O1193781/desordres-drawing-molnar-vera/">"(Des)Ordres" at the Victoria and Albert Museum</a>, here in London. Go see it!
   </div>
@@ -47,30 +47,43 @@
     <p>A video of Vera talking about Randomness.</p>
   </div>
   <div>I think alot of Vera's work is about listing and randomising, which is why she's perfect for today's lecture - which is on exactly those things!</div>
+  <div>The three things I want you keep in mind today are that the computer science word for a list is an array and that computers can generate both random numbers and noise, which is almost random, but not quite.</div>
   <div>By the end of this lecture, you'll know more about:
     <ul>
-      <li>LOTS OF THINGS/li>
+      <li>JavaScript objects and how they can store lots of different types of information in one place</li>
+      <li>Lists or one dimensional arrays</li>
+      <li>Two dimensional arrays or lists that have a list for each of their entries</li>
+      <li>N (or any) dimensional arrays</li>
+      <li>Random functions</li>
+      <li>Noise functions</li>
     </ul>
   </div>
-  <div>The main thing I want you keep in mind today is THIS AND THIS. Intro paragraph here about the magic of arrays - and the power of random</div>
-  <div>
-    <ul>
-      <li>2D arrays, or arrays of arrays.</li>
-      <li>Artwork: <a href="http://www.numeral.com/eicon.html">Every Icon (1997) John F. Simon, Jr.</a></li>
-      <li>Question, how might you store a two dimensional array within a one dimensional one?</li>
-    </ul>
-  </div>
-  <div>First of all go through javascript objects {} notation and being able to loop through all the elements, then introduce arrays and vectors and being able to loop through those</div>
-  <div>Also idea of 1d, 2d, 3d and xd arrays</div>
-  <div>https://p5js.org/examples/interaction-follow-3.html</div>
-  <div>https://p5js.org/examples/interaction-reach-2.html</div>
-  <div>https://p5js.org/examples/interaction-tickle.html</div>
-  <div>https://p5js.org/examples/color-lerp-color.html - randomness</div>
-  <div>https://p5js.org/examples/math-random.html</div>
-  <div>https://p5js.org/examples/math-double-random.html</div>
-  <div>https://p5js.org/examples/math-noise1d.html</div>
-  <div>https://p5js.org/examples/math-noise-wave.html</div>
-  <div>Also https://p5js.org/reference/#/p5/map for mapping between values</div>
+  <div>JavaScript objects and how they can store lots of different types of information in one place.</div>
+  <div>We encountered JavaScript objects in the last lecture when we found out about the for..in loop <a href=" https://p5js.org/learn/program-flow.html">via the p5.js "Program Flow" tutorial</a>. Let's take a look at what <a href="https://javascript.info/object">The Modern JavaScript Tutorial says about objects</a>.</div>
+  <div>Lists or one dimensional arrays.</div>
+  <div>You are all familiar with shopping or todo lists. The coding terms for those things would be one dimensional arrays. Let's take a look at what <a href="https://javascript.info/array">The Modern JavaScript Tutorial says about arrays</a>. Remember - Strings are just arrays of Chars or characters.</div>
+  <div>Two dimensional arrays or lists that have a list for each of their entries.</div>
+  <div>Instead of a char, an integer, a float in each position in an array, what if you stored an array there? Then you'd have a list of lists, or a two dimensional arrays. Can you think of a type of information that you look at every day that might be well suited to storing in a two dimensional array? Something with a width and a height perhaps?</div>
+  <div>An image!</div>
+  <div>Artwork: <a href="http://www.numeral.com/eicon.html">Every Icon (1997) John F. Simon, Jr.</a></div>
+  <div>Question, how might you store a two dimensional array within a one dimensional one?</div>
+  <div>Just make a big one dimensional array and put each row of the two dimensional array side by side!</div>
+  <div>N (or any) dimensional arrays.</div>
+  <div>You can use arrays to hold other arrays that might hold other arrays, and on and on and on and on. Multi-dimensional data is something that Machine Learning makes use of and generates alot of. Being able to relate multiple dimensions to each other is a key activity in all science and one that you should develop. <a href="http://datavis.ca/papers/history-dynamic-graphics-2x2.pdf">See this great paper - "The Prehistory of Dynamic & Interactive Graphics: Visualizing Time and Motion"</a>, as well as this <a href="https://www.youtube.com/watch?v=B7XoW2qiFUA">documentary about an early multi-dimensional data visualisation system - Prim~9</a>.</div>
+  <div>Let's take a look at some p5.js examples that use arrays.</div>
+  <div><a href="https://p5js.org/examples/interaction-follow-3.html">https://p5js.org/examples/interaction-follow-3.html</a> - this example combines one dimensional arrays, trigonometry, and push() and pop() drawing.</div>
+  <div><a href="https://p5js.org/examples/arrays-array-2d.html">https://p5js.org/examples/arrays-array-2d.html</a> - this example combines a two dimensional array with use of the dist() function. Let's try changing the spacer value.</div>
+  <div>Random functions</div>
+  <div>Let's take a look at <a href="https://p5js.org/reference/#/p5/random">the p5.js reference page for the random() function</a>.</div>
+  <div>It's important to realise that the random() function only produces <a href="https://en.wikipedia.org/wiki/Pseudorandomness">pseudo-random</a> numbers. This is <a href="https://p5js.org/reference/#/p5/randomSeed">demonstrated through the randomSeed() p5.js function</a>. Using the same seed produces the same sequence of random numbers every time. If you really need really random numbers, you need <a href="https://www.random.org/">to sample nature, as random.org does</a>.</div>
+  <div>Let's take a look at <a href="https://p5js.org/examples/math-random.html">the p5.js Random example to see how the random() function can be used to generate random greyscale patterns</a>.</div>
+  <div>Let's take a look at <a href="https://p5js.org/examples/math-double-random.html">the p5.js Double Random example to see how two calls to the random() function can produce an irregular line</a>.</div>
+  <div>Let's take a look at <a href="https://p5js.org/examples/color-lerp-color.html">the p5.js lerp colour example to see how the random() function can be used for infinite graphical output</a>.</div>
+  <div>Let's take a look at <a href="https://p5js.org/examples/interaction-tickle.html">the p5.js tickle example to see how the random() function can be used for interaction</a>.</div>
+  <div>Noise functions.</div>
+  <div>In 1983, <a href="https://mrl.nyu.edu/~perlin/">Ken Perlin</a> invented <a href="https://en.wikipedia.org/wiki/Perlin_noise">Perlin Noise</a>, for which he recieved an Oscar in 1997. Perlin Noise can be used to generate realistic looking clouds, landscapes or many other natural features. Since then other noise generators have been invented - including <a href="https://en.wikipedia.org/wiki/Simplex_noise">Simplex Noise</a> and <a href="https://en.wikipedia.org/wiki/Worley_noise">Worley Noise</a>. As an aside, there are many <a href="https://en.wikipedia.org/wiki/Colors_of_noise">colours of noise</a> found in audio engineering and physics. Be careful when generating sound using noise - make sure not to accidentally hit the <a href="https://en.wikipedia.org/wiki/Brown_note">Brown note</a>.</div>
+  <div>Let's take a look at <a href="https://p5js.org/reference/#/p5/noise">the p5.js reference for noise(), which uses Perlin Noise</a>. You can <a href="https://p5js.org/reference/#/p5/noiseDetail">the noiseDetail()</a> function to control the resolution of the noise that you generate.</div>
+  <div>Finally, let's look at a pair of examples that use Perlin noise to generate movement - <a href="https://p5js.org/examples/math-noise1d.html">in one dimension</a> or <a href="https://p5js.org/examples/math-noise-wave.html">n two dimensions</a>.</div>
   <div>Thanks! <br /><a href="../index.html">Back to slide index</a>.</div>
 </body>
 

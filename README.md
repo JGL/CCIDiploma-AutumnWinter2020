@@ -139,7 +139,7 @@ Following the <a href="https://twitter.com/helenbevan/status/1175650749797167104
 - 1400-1700 - Session 2 for Group B, taught by me.
 - 1000-1300 (the day after, Tuesday) - Session 3 for Group C, taught by [Alice Stewart](https://alicestew.art/).
 
-- Hour 1: **Introduction lecture** - use the [Unit 1 Moodle](https://moodle.arts.ac.uk/course/view.php?id=48806) to watch my pre-recorded introduction lecture on the course, creative coding, Javascript and specifically p5.js. [Slides for reference](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_00.html).
+- Hour 1: **Introduction lecture** - use the [Unit 1 Moodle](https://moodle.arts.ac.uk/course/view.php?id=48806) to watch my pre-recorded introduction lecture on the course, creative coding, JavaScript and specifically p5.js. [Slides for reference](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_00.html).
 - Hour 2: [**Introduction workshop**](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/workshop_00.html) - signing up for websites, introducing yourselves and having a discussion about the unit and course.
 - Hour 3: **Watch/listen 1** - use the [Unit 1 Moodle](https://moodle.arts.ac.uk/course/view.php?id=48806) to absorb a pre-recorded lecture from me on Counting and Remembering, in preparation for next weeks session. [Slides for reference](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_01.html).
 
