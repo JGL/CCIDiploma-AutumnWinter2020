@@ -43,30 +43,39 @@
   <div>His most famous work is "One Year Performance 1980-1981" - he spent 12 months punching a time clock every hour, on the hour, 24 hours a day. <a href="https://www.theguardian.com/artanddesign/australia-culture-blog/2014/apr/30/tehching-hsieh-the-man-who-didnt-go-to-bed-for-a-year">Read more here</a>.
   </div>
   <div>I think alot of Tehching's work is about time passing, which is why he's perfect for today's lecture - which is on exactly those things!</div>
+  <div>The main thing I want you keep in mind today is that you can use time based code to have logic run at certain times or to animate content smoothly or even to only run when certain conditions have been met. </div>
   <div>By the end of this lecture, you'll know more about:
     <ul>
-      <li>LOTS OF THINGS/li>
+      <li>How to preload images and other content into your p5.js sketches</li>
+      <li>How to have code run when a user clicks their mouse or presses a certain key</li>
+      <li>How to use lerp() and map() functions to scale variables between different values</li>
+      <li>How to find out the year, month, day, hour, minute or even second within a p5.js sketch</li>
+      <li>How to use frame count, the time between frames or the number of milliseconds since your sketch started to time animation and other things</li>
+      <li>How to build asyncronous code - code that can be used to load images and other data into your p5.js in after the sketch has started to run</li>
     </ul>
   </div>
-  <div>The main thing I want you keep in mind today is THIS AND THIS.This lecture is about timing and events </div>
-  <div>Bring it all together with this before timing things: https://p5js.org/learn/program-flow.html</div>
-  <div>And lerping https://p5js.org/reference/#/p5/lerp</div>
-  <div>Also show and Mapping.. https://p5js.org/reference/#/p5/map</div>
-  <div>https://p5js.org/examples/drawing-patterns.html</div>
-  <div> ALSO DO A BIT ON EASING HERE, AND SWITCHES - i.e. var = !var</div>
-  <div>https://p5js.org/reference/#group-IO - time & date</div>
-  <div>https://p5js.org/reference/#/p5/frameCount</div>
-  <div>https://p5js.org/reference/#/p5/deltaTime</div>
-  <div>https://p5js.org/examples/input-clock.html</div>
-  <div>https://p5js.org/examples/input-easing.html</div>
-  <div>https://p5js.org/examples/math-linear-interpolation.html</div>
-  <div>https://p5js.org/reference/#group-Events</div>
-  <div>https://p5js.org/examples/input-mouse-functions.html</div>
-  <div>https://p5js.org/examples/input-mouse-signals.html</div>
-  <div>https://p5js.org/examples/input-storing-input.html</div>
-  <div>Outside of p5.js https://javascript.info/settimeout-setinterval, show me using it in DAC identity: https://jgl.github.io/DesignAgainstCrimeIdentity/ and https://jgl.github.io/DesignAgainstCrimeIdentity/verticalKick/index.html</div>
-  <div>Do a bit about await and promises here - look at coding train
-  </div>
+  <div>How to preload images and other content into your p5.js sketches and how to have code run when a user clicks their mouse or presses a certain key.</div>
+  <div>Let's continue the <a href="https://p5js.org/learn/program-flow.html">Program Flow tutorial on the p5.js website, starting with the noLoop(), loop() and redraw() section and going through to the end</a>.</div>
+  <div>Let's take a look at <a href="https://p5js.org/reference/#group-Events">all the events that p5.js can use</a>.</div>
+  <div>Let's take a look at <a href="https://p5js.org/examples/input-mouse-signals.html">how we can plot mouse interactions over time</a>. Why is one graph all straight lines and the other curvier?</div>
+  <div>Let's look at how we can <a href="https://p5js.org/examples/input-mouse-functions.html">use mouse events to make click and drag interactions</a>.</div>
+  <div>Let's take a look at how we can <a href="https://p5js.org/examples/input-storing-input.html">use arrays to store mouse interaction information over time</a>. Instead of using two arrays for mouseX and mouseY positions, how could we have stored this information differently? Have you ever heard of <a href="https://p5js.org/reference/#/p5.Vector">a vector</a>? It's a really useful way of bringing two (or three) position values together into one object</div>
+  <div>How to use lerp() and map() functions to scale variables between different values.</div>
+  <div>Let's take a look at the p5.js reference page for the <a href="https://p5js.org/reference/#/p5/lerp">lerp()</a> function and the <a href="https://p5js.org/reference/#/p5/map">map()</a> function.</div>
+  <div>Let's take a look at <a href="https://p5js.org/examples/math-map.html">the p5.js map example</a> to see how to use the map() function to take a mouse position and turn it into the radius and colour of a circle. This is a very powerful technique - taking one input value and scaling it to lots of different types of information - radius, colour or anything we like.</div>
+  <div>Let's take a look at p5.js <a href="https://p5js.org/examples/input-easing.html">easing example to see how to create animation that follows the user's mouse</a>. We can also use the <a href="https://p5js.org/examples/math-linear-interpolation.html">lerp() function to do this</a> - this is known as <a href="https://en.wikipedia.org/wiki/Linear_interpolation">linear interpolation, or how to blend between known values</a>.</div>
+  <div>How to find out the year, month, day, hour, minute or even second within a p5.js sketch.</div>
+  <div>p5.js has lots of useful functions for working out the: <a href="https://p5js.org/reference/#/p5/year">year</a>, <a href="https://p5js.org/reference/#/p5/month">month</a>, <a href="https://p5js.org/reference/#/p5/day">day</a>, <a href="https://p5js.org/reference/#/p5/hour">hour</a>, <a href="https://p5js.org/reference/#/p5/minute">minute</a> and finally <a href="https://p5js.org/reference/#/p5/second">second</a>.</div>
+  <div>Let's see how p5.js <a href="https://p5js.org/examples/input-clock.html">clock example all those time functions together</a>.</div>
+  <div>Let's take a look at the reference for the <a href="https://p5js.org/reference/#/p5/pmouseX">pmouseX</a> system variable and how it can be used with it's y equivalent in this <a href="https://p5js.org/examples/drawing-patterns.html">drawing patterns</a> example.</div>
+  <div>But what if you want to do more advanced animation?</div>
+  <div>How to use frame count, the time between frames or the number of milliseconds since your sketch started to time animation and other things.</div>
+  <div>Let's take a look at the <a href="https://p5js.org/reference/#/p5/frameCount">p5.js reference page for the system variable frameCount, which can be used to make frame based animation</a>. Why might frame based animation be a bad idea?</div>
+  <div>Let's take a look at the <a href="https://p5js.org/reference/#/p5/deltaTime">p5.js reference page for the system variable deltaTime</a> which can be used to make frame rate independent animation. It's also possible <a href="https://p5js.org/reference/#/p5/millis">to get the number of milliseconds since the sketch started running</a>.</div>
+  <div>Finally, let's look at how to build asyncronous code - code that can be used to load images and other data into your p5.js in after the sketch has started to run.</div>
+  <div>We've already seen the use of <a href="https://p5js.org/learn/program-flow.html">setInterval() in the p5.js program flow tutorial</a>. Let's take a look at <a href="https://javascript.info/settimeout-setinterval">how The Modern JavaScript tutorial describes it and a similar function - setTimeOut()</a>.</div>
+  <div>I used this functionality to <a href="https://jgl.github.io/DesignAgainstCrimeIdentity/verticalKick/index.html">change the physics simulation</a> that I used to <a href="https://jgl.github.io/DesignAgainstCrimeIdentity/">make an identity for a CSM research group</a>.</div>
+  <div>Let's <a href="https://javascript.info/async">see what The Modern JavaScript tutorial says about asynchronicity </a>. This is the most advanced code we've yet encountered - and it's gone a bit chicken and egg again. Take a look at <a href="https://www.youtube.com/watch?v=QO4NXhWo_NM&list=PLRqwX-V7Uu6bKLPQvPRNNE65kBL62mVfx">The Coding Train playlist about asynchronicity to learn more</a> (this is part of a <a href="https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YgpA3Oht-7B4NBQwFVe3pr">larger playlist about ES6, which an upgraded version of JavaScript that launched a few years ago</a>) - don't worry if it's a bit confusing, we need to keep swimming for now, and next lecture I'll let you all about Object Orientated programming.</div>
   <div>Thanks! <br /><a href="../index.html">Back to slide index</a>.</div>
 </body>
 
