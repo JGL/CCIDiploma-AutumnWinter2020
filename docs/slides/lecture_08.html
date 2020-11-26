@@ -43,14 +43,22 @@
     <iframe width="560" height="315" src="https://www.youtube.com/embed/XqHQT0CUEEU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
   <div>I think alot of Anna's work is about images and systems for making images, which is why she's perfect for today's lecture - which is on exactly those things!</div>
+  <div>The main things I want you keep in mind today is that images can also be thought of as two dimensional arrays of pixel data. The way that images are usually stored in memory is in one giant one dimensional array - with all the rows of image data stacked side by side. Pixels in p5.js are (usually) stored in RGBA order, something you can move through with a for loop - a pair of for loops are perfect for looping through all the pixels of an image in order.</div>
   <div>By the end of this lecture, you'll know more about:
     <ul>
-      <li>LOTS OF THINGS/li>
+      <li>Moving to four dimensions</li>
+      <li>Artists working with space and time</li>
+      <li>How p5.js works with images</li>
+      <li>Spatial compression and Temporal compression</li>
+      <li>The Fast Fourier transform</li>
+      <li>Three kinds of feedback: audio, visual and interactive</li>
+      <li>Conway's Game of Life, Cellular Automata and rules 30 and 110</li>
+      <li>Boids, Evolved Virtual Creatures and emergence</li>
+      <li>How you can use p5.js to simulate different systems</li>
     </ul>
   </div>
-  <div>The main thing I want you keep in mind today Images as photographs, but also images as ways of storing data about the world, like depth images.</div>
+  <div>Moving to four dimensions.</div>
   <div>
-    <h3>2. Moving to four dimensions.</h3>
     <ul>
       <li>Going from Cube to <a href="https://en.wikipedia.org/wiki/Hypercube">Hypercube</a>.</li>
       <li>You can also go from the Sphere to the <a href="https://en.wikipedia.org/wiki/Four-dimensional_space#Hypersphere">Hypersphere</a>.</li>
@@ -59,8 +67,8 @@
       <li><a href="https://www.youtube.com/watch?v=2s4TqVAbfz4">Perfect Shapes in Higher Dimensions</a> from <a href="https://www.youtube.com/user/numberphile/featured">Numberphile</a>, which is a great channel to get lost in.</a></li>
     </ul>
   </div>
+  <div>Artists working with space and time.</div>
   <div>
-    <h3>3. Artists working with space and time.</h3>
     <ul>
       <li><a href="https://en.wikipedia.org/wiki/Eadweard_Muybridge">Eadweard Muybridge</a>, <a href="https://en.wikipedia.org/wiki/Sallie_Gardner_at_a_Gallop">Sallie Gardner at a Gallop</a>.</li>
       <li><a href="https://en.wikipedia.org/wiki/%C3%89tienne-Jules_Marey">Étienne-Jules Marey and the photographic gun</a>.</li>
@@ -70,19 +78,42 @@
       <li><a href="https://en.wikipedia.org/wiki/Richard_Long_(artist)">Richard Long</a>, <a href="http://www.richardlong.org/Sculptures/2011sculptures/linewalking.html">A Line Made by Walking</a>.</li>
     </ul>
   </div>
-  <div>Images are just lists of colours, or arrays of colours.</div>
+  <div>How p5.js works with images.</div>
   <div>
-    https://p5js.org/examples/image-load-and-display-image.html
-    https://p5js.org/examples/image-transparency.html
-    https://p5js.org/examples/image-alpha-mask.html
-    https://p5js.org/examples/image-create-image.html
-    https://p5js.org/examples/image-pointillism.html
-    https://p5js.org/examples/image-blur.html
-    https://p5js.org/examples/image-convolution.html
-    https://p5js.org/examples/image-copy-method.html
+    <a href="https://p5js.org/reference/#/p5/loadImage">https://p5js.org/reference/#/p5/loadImage</a>
   </div>
   <div>
-    <h3>5. Spatial compression and Temporal compression.</h3>
+    <a href="https://p5js.org/reference/#/p5/image">https://p5js.org/reference/#/p5/image</a>
+  </div>
+  <div>
+    <a href="https://p5js.org/reference/#/p5/createImage">https://p5js.org/reference/#/p5/createImage</a>
+  </div>
+  <div>
+    <a href="https://p5js.org/reference/#/p5/pixels">https://p5js.org/reference/#/p5/pixels</a>
+  </div>
+  <div>
+    <a href="https://p5js.org/examples/image-load-and-display-image.html">https://p5js.org/examples/image-load-and-display-image.html</a>
+  </div>
+  <div>
+    <a href="https://p5js.org/examples/image-transparency.html">https://p5js.org/examples/image-transparency.html</a>
+  </div>
+  <div>
+    <a href="https://p5js.org/examples/image-alpha-mask.html">https://p5js.org/examples/image-alpha-mask.html</a>
+  </div>
+  <div>
+    <a href="https://p5js.org/examples/image-create-image.html">https://p5js.org/examples/image-create-image.html</a>
+  </div>
+  <div>
+    <a href="https://p5js.org/examples/image-pointillism.html">https://p5js.org/examples/image-pointillism.html</a>
+  </div>
+  <div>
+    <a href="https://p5js.org/reference/#/p5/saveCanvas">https://p5js.org/reference/#/p5/saveCanvas</a>
+  </div>
+  <div>
+    <a href="https://p5js.org/reference/#/p5.Image">https://p5js.org/reference/#/p5.Image - p5.Image is a super useful object to use - it even allows you to load animated gifs!</a>
+  </div>
+  <div>Spatial compression and Temporal compression.</div>
+  <div>
     <ul>
       <li><a href="https://en.wikipedia.org/wiki/JPEG">JPEG</a> is spatial compression for still images.</li>
       <li><a href="https://en.wikipedia.org/wiki/MPEG-1">MPEG</a> is temporal compression for moving images and sound.</li>
@@ -90,8 +121,8 @@
       <li>See Rosa Menkman's <a href="https://beyondresolution.info/">amazing series of lectures on artefacts that result from accidents in both analogue and digital media (such as glitch, encoding and feedback).</a></li>
     </ul>
   </div>
+  <div>The Fast Fourier transform.</div>
   <div>
-    <h3>6. The Fast Fourier transform.</h3>
     <ul>
       <li>The <a href="https://en.wikipedia.org/wiki/Fast_Fourier_transform">Fast Fourier transform</a> is a way of splitting up any waveform into a series of simpler waves.</li>
       <li>This can be very useful to find out how much bass, mid and treble any sound has and is used in music visualisers.</li>
@@ -99,8 +130,8 @@
       <li>See this <a href="https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/">interactive Better Explained</a> article for a further, further explanation.</li>
     </ul>
   </div>
+  <div>Three kinds of feedback: audio, visual and interactive.</div>
   <div>
-    <h3>7. Three kinds of feedback: audio, visual and interactive.</h3>
     <ul>
       <li><a href="https://en.wikipedia.org/wiki/Feedback">Feedback</a> is when you feed the output of a signal into the input of it. It's a very powerful technique that can be used in a variety of fields:</li>
       <li><a href="https://en.wikipedia.org/wiki/Audio_feedback">Audio feedback</a>. Jimi Hendrix used this to great effect.</li>
@@ -113,25 +144,8 @@
       <li>Finally, <a href="https://twitter.com/gr3gjsmith/status/1017073209903058945">a great Twitter thread on the history of new media art</a> from <a href="http://serialconsign.com/">Greg J. Smith</a>.</li>
     </ul>
   </div>
+  <div>Conway's Game of Life, Cellular Automata and rules 30 and 110.</div>
   <div>
-    <h3>3. Fuzzy logic, Computer Vision and Neural Networks.</h3>
-    <ul>
-      <li><a href="https://en.wikipedia.org/wiki/Fuzzy_logic">Fuzzy logic</a> is a logic where results be other numbers between 0 and 1 - rather than one or the other. It's very useful for controlling systems which are analogue, like a washing machine.</li>
-      <li><a href="https://en.wikipedia.org/wiki/Computer_vision">Computer vision</a> in computer science is the study of making computers able to understand images or video.</li>
-      <li>See this <a href="https://www.edge.org/response-detail/10351">Edge.org article on Hidden Layers</a> for an explanation of how biological research directly influenced the creation of <a href="https://en.wikipedia.org/wiki/Artificial_neural_network">Artifical Neural Networks</a>, a key part of modern <a href="https://en.wikipedia.org/wiki/Machine_learning">Machine Learning</a>. <a href="https://www.youtube.com/watch?v=l42lr8AlrHk">Computerphile video on what Deep Learning is</a>. <a href="https://www.youtube.com/watch?v=py5byOOHZM8">Another Computerphile video on Convolutional Neural Networks and what makes them SO special</a>.</li>
-      <li><a href="https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding">t-SNE</a> is a machine learning technique for collapsing multidimensional data into two or three dimensions - simply put, a great way of visualising a set of images and their relationship to each other.</li>
-    </ul>
-  </div>
-  <div>
-    <h3>3. Fuzzy logic, Computer Vision, Neural Networks, Adam Harvey, Bias and Anti-Facist AI. (continued)</h3>
-    <ul>
-      <li><a href="https://ahprojects.com/">Adam Harvey</a> makes art projects about privacy, computer vision, and surveillance.</li>
-      <li><a href="https://digitaltalkingdrum.com/2017/08/15/against-black-inclusion-in-facial-recognition/">Black inclusion in facial recognition</a> by <a href="https://nabilhassein.github.io/">Nabil Hassein</a>.</li>
-      <li><a href="https://www.opendemocracy.net/en/digitaliberties/towards-anti-fascist-ai/">Towards an anti-fascist AI</a> by <a href="http://www.danmcquillan.io/">Dan McQuillan</a>.</li>
-    </ul>
-  </div>
-  <div>
-    <h3>3. Conway's Game of Life, Cellular Automata and rules 30 and 110.</h3>
     <ul>
       <li><a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway's Game of Life</a> was invented by John Conway in 1970. Conway created it to simulate simple biological life with four rules.</li>
       <li>It turns out you can even make <a href="https://www.youtube.com/watch?v=xP5-iIeKXE8">Game of Life inside of Game of Life</a>.</li>
@@ -140,8 +154,8 @@
       <li>There is also <a href="https://en.wikipedia.org/wiki/The_Game_(mind_game)">The Game</a>, which I just lost (again).</li>
     </ul>
   </div>
+  <div>Boids, Evolved Virtual Creatures and emergence.</div>
   <div>
-    <h3>4. Boids, Evolved Virtual Creatures and emergence.</h3>
     <ul>
       <li><a href="https://en.wikipedia.org/wiki/Boids">Boids</a> was an artifical life system developed by Craig Reynolds in 1986. It simulated realistic flocking with just three simple rules. Compare the simulation to this <a href="https://www.youtube.com/watch?v=eakKfY5aHmY">murmuration</a>.</li>
       <li><a href="https://www.youtube.com/watch?v=JBgG_VSP7f8">Evolved Virtual Creatures</a> was a film created by <a href="https://en.wikipedia.org/wiki/Karl_Sims">Karl Sims</a> in 1994 that showed how virtual creatures could evolve the ability to walk.</li>
@@ -150,8 +164,28 @@
       <li><a href="http://learnjsdata.com/">Learning JS Data</a> - "this guide teaches the basics of manipulating data using JavaScript in the browser, or in node.js." - very useful tutorial on reading in data in JavaScript.</li>
     </ul>
   </div>
-  <div>https://p5js.org/examples/ - go through simulate section here...</div>
-  <div>More: https://jasonwebb.github.io/2d-reaction-diffusion-experiments/ / https://github.com/jasonwebb/2d-reaction-diffusion-experiments / https://github.com/jasonwebb/2d-diffusion-limited-aggregation-experiments / https://jasonwebb.github.io/2d-diffusion-limited-aggregation-experiments/ / https://github.com/jasonwebb/2d-differential-growth-experiments / https://jasonwebb.github.io/2d-differential-growth-experiments/ / https://github.com/jasonwebb/2d-cellular-automata-experiments / https://jasonwebb.github.io/2d-cellular-automata-experiments/ https://github.com/jasonwebb/2d-voronoi-experiments /https://jasonwebb.github.io/2d-space-colonization-experiments/ </div>
+  <div>How you can use p5.js to simulate different systems</div>
+  <div>
+    <a href="https://p5js.org/examples/simulate-game-of-life.html">https://p5js.org/examples/simulate-game-of-life.html</a>
+  </div>
+  <div>
+    <a href="https://p5js.org/examples/simulate-wolfram-ca.html">https://p5js.org/examples/simulate-wolfram-ca.html</a>
+  </div>
+  <div>
+    <a href="https://p5js.org/examples/simulate-spirograph.html">https://p5js.org/examples/simulate-spirograph.html</a>
+  </div>
+  <div>
+    <a href="https://p5js.org/examples/simulate-l-systems.html">https://p5js.org/examples/simulate-l-systems.html</a>
+  </div>
+  <div>
+    <a href="https://p5js.org/examples/simulate-recursive-tree.html">https://p5js.org/examples/simulate-recursive-tree.html</a>
+  </div>
+  <div>
+    <a href="https://p5js.org/examples/simulate-stepping-feet-illusion.html">https://p5js.org/examples/simulate-stepping-feet-illusion.html</a>
+  </div>
+  <div>
+    <a href="https://p5js.org/examples/simulate-particles.html">https://p5js.org/examples/simulate-particles.html</a>
+  </div>
   <div>Thanks! <br /><a href="../index.html">Back to slide index</a>.</div>
 </body>
 
