@@ -199,15 +199,11 @@ Following the <a href="https://twitter.com/helenbevan/status/1175650749797167104
 - 1100-1200: **Experiment/play 8** - work on creative code exercises based on the previous week's lecture, our discussion in the previous hour and excerpts from the upcoming [Code as Creative Medium: An educator's handbook](https://mitpress.mit.edu/books/code-creative-medium) by [Golan Levin](http://flong.com/) and [Tega Brain](http://tegabrain.com/) - Images exercises and Simulation exercises.
 - 1200-1300: **Watch/listen 9** - used the course Moodle to absorb a pre-recorded lecture from me on Exams, in preparation for next weeks session. [Slides for reference](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_09.html).
 
-## Week 10 - Monday 11th January 2021 (week 2 of 52) - In person learning 4 - mock exams
+## Week 10 - Monday 11th January 2021 (week 2 of 52) - Remote learning - mock exams
 
-- 1000-1300 - Session 1 for Group A and Group Online, taught by me.
-- 1400-1700 - Session 2 for Group B, taught by me.
-- 1000-1300 (the day after, Tuesday) - Session 3 for Group C, taught by [Alice Stewart](https://alicestew.art/).
-
-- Hour 1: **Explore/engage 9** - discuss the previous week's lecture, meditate, reflect, explain.
-- Hour 2: **Experiment/play 9** - mock programming challenge and mock multiple choice exam issued.
-- Hour 3: **Watch/listen 10** - use the [Unit 1 Moodle](https://moodle.arts.ac.uk/course/view.php?id=48806) to absorb a pre-recorded lecture from me on openFrameworks and C++, in preparation for next weeks session. [Slides for reference](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_10.html).
+- 1000-1100: **Explore/engage 9** - discuss the previous week's lecture, meditate, reflect, explain.
+- 1100-1200: **Experiment/play 9** - mock programming challenge and mock multiple choice exam issued.
+- 1200-1300: **Watch/listen 10** - use the [Unit 1 Moodle](https://moodle.arts.ac.uk/course/view.php?id=48806) to absorb a pre-recorded lecture from me on openFrameworks and C++, in preparation for next weeks session. [Slides for reference](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_10.html).
 
 ## Week 11 - Monday 18th January 2021 (week 3 of 52) - Remote learning - introduction to openFrameworks and C++
 
@@ -221,15 +217,11 @@ Following the <a href="https://twitter.com/helenbevan/status/1175650749797167104
 - 1100-1200: **Experiment/play 11** - work on creative code exercises based on the previous week's lecture and our discussion in the previous hour.
 - 1200-1300: **Watch/listen 12** - use the [Unit 1 Moodle](https://moodle.arts.ac.uk/course/view.php?id=48806) to absorb a pre-recorded lecture from me on where next, in preparation for next weeks session. [Slides for reference](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_12.html).
 
-## Week 13 - Monday 1st February 2021 (week 5 of 52) - In person learning 5 - where next?
+## Week 13 - Monday 1st February 2021 (week 5 of 52) - Remote learning - where next?
 
-- 1000-1300 - Session 1 for Group A and Group Online, taught by me.
-- 1400-1700 - Session 2 for Group B, taught by me.
-- 1000-1300 (the day after, Tuesday) - Session 3 for Group C, taught by [Alice Stewart](https://alicestew.art/).
-
-- Hour 1: **Explore/engage 12** - discuss the previous week's lecture, meditate, reflect, explain.
-- Hour 2: **Experiment/play 12** - work on creative code exercises based on the previous week's lecture and our discussion in the previous hour.
-- Hour 3: **Watch/listen 13** - use the [Unit 1 Moodle](https://moodle.arts.ac.uk/course/view.php?id=48806) to absorb a pre-recorded lecture from me on TBC. [Slides for reference](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_13.html).
+- 1000-1100: **Explore/engage 12** - discuss the previous week's lecture, meditate, reflect, explain.
+- 1100-1200: **Experiment/play 12** - work on creative code exercises based on the previous week's lecture and our discussion in the previous hour.
+- 1200-1300: **Watch/listen 13** - use the [Unit 1 Moodle](https://moodle.arts.ac.uk/course/view.php?id=48806) to absorb a pre-recorded lecture from me on TBC. [Slides for reference](https://jgl.github.io/CCIDiploma-AutumnWinter2020/slides/lecture_13.html).
 
 Further sessions are TBC, depending on multiple choice test and practical exam timings, and other unit's assessment timings.
 
